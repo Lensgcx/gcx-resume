@@ -1,0 +1,249 @@
+.resume_top{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: rgba(0, 0, 0, 0.82)
+}
+.resume_top_C{
+	width: 1000px;
+	min-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.t_tit{
+	position: absolute;
+	width: 200px;
+	height: 70px;
+	top: 20px;
+}
+.t_tit_img{
+	float: left;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin-right: 5px;
+}
+.t_tit_img img{
+	width: 100%;
+	height: 100%;
+}
+.t_tit ul{
+	float: left;
+	position: relative;
+	margin-top: 7px;
+}
+.t_tit ul li{
+	float: left;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	border: 2px solid #ffffff;
+	border-right: none;
+	text-align: center;
+}
+g{
+	font-family: fz-bold;
+	font-size: 36px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.t_tit span{
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	font-family: fz-light;
+	font-size: 16px;
+	color: #ffffff;
+	top: 50px;
+	left: 102px;
+}
+.logo_dot{
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	background-color: #f2d31f;
+	border-radius: 6px;
+	top: 40px;
+	left: 184px;
+}
+
+
+/*---------------导航栏---------------*/
+.resume_top_nav_Whole {
+	float: right;
+	width: 620px;
+	height: 51px;
+	text-align: center;
+	margin-top: 44px;
+	z-index: 100;
+	/*background: lawngreen;*/
+}
+.resume_top_Nav{
+	position: relative;
+	float: left;
+	width: 70px;
+	height: 100%;
+	/*background: aquamarine;*/
+}
+.resume_nav_btn {
+	position: relative;
+	float: left;
+	height:45px;
+	padding-top: 6px;
+	line-height: 18px;
+	/*font-family: "gothic-webfont";*/
+	font-size: 12px;
+	/*color: #666;*/
+	color: white;
+	width: 70px;
+	outline: none;
+	z-index: 999;
+	top: 0;
+	-webkit-transition:  all linear 0.45s;
+	-moz-transition: all linear 0.45s;
+	-o-transition:  all linear 0.45s;
+	transition: all linear 0.45s;
+}
+.resume_nav_btn span {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	font-size: 12px;
+	width: 71px;
+	color: #bbbbbb;
+	line-height: 12px;
+	padding-bottom: 15px;
+	font-family: "Calibri";
+	z-index: 10;
+	top: 0;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	transition: all linear 0.4s;
+}
+/*分割线*/
+.n{
+	float: left;
+	background: url(../../img/Whole/i2.png) no-repeat 0 3px;
+	width: 16px;
+	height: 51px;
+}
+
+/*-----下拉导航栏菜单-------*/
+
+.R_Navigation_menu{
+	position: absolute;
+	overflow: hidden;
+	width: 116px;
+	margin-left: -28px;
+	height: 0;
+	top: 56px;
+	z-index: 999;
+
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 10px 10px;
+
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+
+	/*background: rgba(255,255,255,0.7);*/
+	/*background: rgba(0, 0, 0, 0.5);*/
+	background:-webkit-gradient(linear, 8 10,1 bottom, from(rgba(0, 0, 0, 0.76)), to(rgba(156, 156, 156, 0.65)));
+
+	-webkit-transition: all linear 0.28s;
+	-moz-transition: all linear 0.28s;
+	-o-transition: all linear 0.28s;
+	transition: all linear 0.28s;
+}
+.R_Navigation_menu li{
+	float: left;
+	position: relative;
+	width: 100%;
+	line-height: 24px;
+	height: 24px;
+	margin-bottom: 6px;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	-o-transition: all ease 0.8s;
+	transition: all ease 0.4s;
+}
+.wz{
+	display: block;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	padding: 0;
+	color: white;
+	/*color: #151515;*/
+	font-size: 13px;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+/*-----鼠标移入效果-------*/
+
+.resume_top_Nav:hover .resume_nav_btn {
+	top: 12px;
+	color:#aa0000;
+}
+.resume_top_Nav:hover .resume_nav_btn span {
+	top: -30px;
+}
+.R_Navigation_menu li:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+	background: url(../../img/Whole/nav2.png) no-repeat 3px 0;
+}
+.resume_top_Nav:hover .R_menu1 {
+	height: 0;
+}
+.resume_top_Nav:hover .R_menu2{
+	height: 120px;
+}
+.resume_top_Nav:hover .R_menu3{
+	height: 150px;
+}
+.resume_top_Nav:hover .R_menu4{
+	height: 120px;
+}
+.resume_top_Nav:hover .R_menu5{
+	height: 90px;
+}
+.resume_top_Nav:hover .R_menu6 {
+	height: 120px;
+}
+.resume_top_Nav:hover .R_menu7 {
+	height: 120px;
+}
+
+/*电子时钟*/
+.Ele_clock{
+	position: absolute;
+	width: 128px;
+	height: 20px;
+	margin: 5px 0 0 870px;
+	-moz-opacity:0.4;
+	-khtml-opacity:0.4;
+	opacity: 0.4;
+	/*background: #a195ed;*/
+}
+.Ele_clock_C{
+	width: 100%;
+	height: 100%;
+}
+.Ele_clock_C img{
+	float: left;
+	position: relative;
+	width: 15px;
+	height: 20px;
+}
+
+
+
+

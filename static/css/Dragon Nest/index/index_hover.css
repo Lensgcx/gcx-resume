@@ -1,0 +1,44 @@
+
+*：link{
+	text-decoration: none;
+	cursor: pointer;
+}
+*:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.top_bar_nav_txt a:hover{
+	color: #C9242B;
+	transform: translateZ(500px);
+}
+.new_list_C ul li a:hover{
+	color: #b49ddb;
+}
+.media_text a:hover{
+	color: #b49ddb;
+}
+.APP_list li a:hover{
+	color: #b49ddb;
+}
+.part4_l_C p a:hover{
+	font-size: 14px;
+}
+.b_middle p a:hover{
+	font-size: 13px;
+}
+
+
+/*标题右侧的加号*/
+.tlt_center em:hover {
+	-webkit-transform:  rotate(360deg);
+	-moz-transform:  rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.more:hover{
+	-webkit-transform:  rotate(360deg);
+	-moz-transform:  rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}

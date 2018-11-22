@@ -1,0 +1,154 @@
+a:link {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+.top-header-part1-content-left ul li a:hover{
+	color: white;
+	cursor: pointer;
+}
+#Business-text a:hover{
+	color: white;
+	cursor: pointer;
+}
+.top-header-part1-content-right ul li a:hover{
+	color: white;
+	cursor: pointer;
+}
+.top-header-part2-content-items ul li a:hover{
+	color: white;
+	background: #1693f1;
+	cursor: pointer;
+}
+.top-header-part2-content-search a:hover{
+	background: #1693f1;
+	cursor: pointer;
+}
+.middle-part1-content1-topr-t:hover{
+	color: #1693f1;
+	cursor: pointer;
+}
+.middle-part1-content1-topr-b:hover{
+	color: #1693f1;
+	cursor: pointer;
+}
+.middle-part1-content1-bottom div:hover{
+	color: white;
+	cursor: pointer;
+	background: #1693f1;
+}
+
+
+
+
+.middle-part2-title span:hover{
+	font-size: 32px;
+	cursor: pointer;
+}
+.top-header-part2-go-select ul li:hover{
+	background: #eee;
+}
+.top-header-part2-go-top a:hover{
+	cursor: pointer;
+	opacity: 0.8;
+	filter: alpha(opacity=80); left: auto;
+}
+.top-header-part2-go-upopen-top ul li a:hover{
+	color: #0066B3;
+	cursor: pointer;
+}
+.top-header-part2-go-upopen-bottom-bac ul li a:hover{
+	color: #1773b9;
+	cursor: pointer;
+}
+.middle-part3-title1 a:hover{
+	color: #0066B3;
+	cursor: pointer;
+}
+.middle-part3-title2 a:hover{
+	color: #0066B3;
+	cursor: pointer;
+}
+.middle-part3-title3 a:hover{
+	color: #0066B3;
+	cursor: pointer;
+}
+.middle-part3-title4 a:hover{
+	color: #0066B3;
+	cursor: pointer;
+}
+
+
+.middle-part4-content-left-t1-title a:hover{
+	color: #1693f1;
+	font-size: 20px;
+	cursor: pointer;
+}
+.middle-part4-content-left-t1-jx li:hover{
+	color: #1693f1;
+	cursor: pointer;
+}
+.middle-part5-content-part-div a:hover{
+	color: #1693f1;
+	cursor: pointer;
+}
+.bottom-part1-content-part2 li a:hover{
+	color: white;
+	cursor: pointer;
+}
+.bottom-part1-content-part3 a:hover{
+	color: white;
+	cursor: pointer;
+}
+.sidebar-content a li:hover{
+	cursor: pointer;
+	color: #585858;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top-header-Top2-span2:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec0915;
+}
+#top-bottom-bar-a span:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+.sub-nav ul li a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+	font-size: 16px;
+}
+#title-gw:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #000000;
+	font-size: 22px;
+}
+

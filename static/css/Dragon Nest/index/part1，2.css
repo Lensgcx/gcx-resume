@@ -1,0 +1,531 @@
+/*-------------------上面图片  部分------------*/
+.main_top{
+	float: left;
+	width: 100%;
+	height: 479px;
+	background: url(../../../img/Dragon%20Nest/wrap/main_top/index_header.jpg) no-repeat;
+}
+
+/*------------------内容主体部分---------------*/
+
+.main{
+	float: left;
+	width: 100%;
+	height: 1315px;
+	background: url(../../../img/Dragon%20Nest/wrap/index_main.jpg) no-repeat;
+}
+
+
+/*----------------------------第一部分：下载，消息，公告-------------------------*/
+.main_part1{
+	float: left;
+	width: 100%;
+	height: 270px;
+	margin-bottom: 15px;
+	border: transparent;
+	background: transparent;
+}
+
+/*-------左边部分------*/
+.main_part1_l{
+	float: left;
+	width: 207px;
+	height: 100%;
+}
+/*下载*/
+.main_part1_l object{
+	float: left;
+	position: relative;
+	display: block;
+	width: 207px;
+	height: 148px
+}
+/*装饰*/
+.zs1{
+	position: absolute;
+	background: url(../../../img/Dragon%20Nest/wrap/main_part1/down_ico1.png) no-repeat;
+	width: 18px;
+	height: 27px;
+	top: -4px;
+	left: -7px;
+}
+.zs2{
+	position: absolute;
+	background: url(../../../img/Dragon%20Nest/wrap/main_part1/down_ico2.png) no-repeat;
+	width: 19px;
+	height: 18px;
+	top: 137px;
+	left: -27px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.main_part1_l object:hover .zs2{
+	top: 127px;
+	left: -6px;
+}
+
+/*注册账号，新手指南*/
+.Account_Guide{
+	float: left;
+	position: relative;
+	width: 103px;
+	height: 61px;
+	border: 1px solid #503779;
+	background-color: #61468f;
+	box-sizing: border-box;
+	color: #fff;
+	box-shadow: inset 0 0 1px rgba(255,255,255,.4);
+}
+.Account_Guide em{
+	position: absolute;
+	background-position: 0 -30px;
+	width: 11px;
+	height: 11px;
+	top: 25px;
+	left: 14px;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.Account_Guide span{
+	position: absolute;
+	margin-left: 30px;
+	font-size: 12px;
+	line-height: 59px;
+	color: #fff;
+	font-weight: bold;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition:all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.Account_Guide:hover em{
+	left: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.Account_Guide:hover span{
+	color: #9be6f9;
+	margin-left: 20px;
+}
+/*新手礼包*/
+.New_packs{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 61px;
+	line-height: 61px;
+	background: url(../../../img/Dragon%20Nest/wrap/main_part1/index_gift.jpg) no-repeat;
+}
+.New_packs em{
+	position: absolute;
+	background-position: -120px 0;
+	width: 18px;
+	height: 18px;
+	top: 22px;
+	left: 45px;
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition:all ease 0.4s;
+	transition: all ease 0.4s;
+}
+.New_packs span{
+	position: absolute;
+	margin-left: 77px;
+	line-height: 61px;
+	font-size: 18px;
+	color: #0f3c8d;
+	font-weight: bold;
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition:all ease 0.4s;
+	transition: all ease 0.4s;
+}
+.New_packs:hover{
+	background: url(../../../img/Dragon%20Nest/wrap/main_part1/index_gift.jpg) 0 100% no-repeat;
+}
+.New_packs:hover em{
+	left: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.New_packs:hover span{
+	margin-left: 60px;
+}
+/*-------中间部分------*/
+.main_part1_m{
+	float: left;
+	width: 473px;
+	height: 270px;
+	/*background: #ffffff;*/
+}
+.tab1{
+	position: relative;
+	overflow: hidden;
+	width: 473px;
+	height: 270px;
+}
+.tab1_Picture_play{
+	position: absolute;
+	width: 1896px;
+	height: 270px;
+	margin: 0;
+	padding: 0;
+}
+.tab1_Picture_play a{
+	float: left;
+	width: 474px;
+	height: 270px;
+	opacity: 1;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+/*-----------图片背景--------------*/
+.Picture_play1{
+	background-image: url(../../../img/Dragon%20Nest/wrap/main_part1/Picture_play1.jpg);
+}
+.Picture_play2{
+	background-image: url(../../../img/Dragon%20Nest/wrap/main_part1/Picture_play2.jpg);
+}
+.Picture_play3{
+	background-image: url(../../../img/Dragon%20Nest/wrap/main_part1/Picture_play3.jpg);
+}
+.Picture_play4{
+	background-image: url(../../../img/Dragon%20Nest/wrap/main_part1/Picture_play4.jpg);
+}
+/*-------------------------*/
+.tab1_FlipDot{
+	position: absolute;
+	width: 96px;
+	height: 14px;
+	margin-left: 368px;
+	margin-top: 246px;
+	z-index: 999;
+}
+.tab1_FlipDot input{
+	float: left;
+	display: block;
+	cursor: pointer;
+	outline:none;
+	overflow: hidden;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	border: 2px solid #61468f;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #61468f;
+}
+#ipt_active{
+	border: 2px solid #61468f;
+	background: transparent;
+}
+
+/*-------右边部分------*/
+.main_part1_r{
+	float: left;
+	width: 360px;
+	height: 100%;
+	background-color: #fff;
+}
+.active_center{
+	position: absolute;
+	width: 120px;
+	height: 33px;
+	background: url(../../../img/Dragon%20Nest/wrap/main_part1/index_act.png) no-repeat;
+	right: 0;
+	margin-top: -25px;
+}
+
+/*顶部标题*/
+.grid_top{
+	position: relative;
+	float: left;
+	width: 312px;
+	height: 47px;
+	margin: 0 24px 10px;
+	border-bottom: 1px solid #d8d8d8;
+}
+#news_tab{
+	position: relative;
+	padding-left: 12px;
+	width: 300px;
+	height: 46px;
+}
+/*标题*/
+#news_tab li{
+	width: 36px;
+	height: 46px;
+	margin-right: 35px;
+	line-height: 46px;
+	font-size: 18px;
+	float: left;
+	cursor: pointer;
+}
+/*加*/
+.more{
+	display: block;
+	position: absolute;
+	background: url(../../../img/Dragon%20Nest/wrap/icon1.png) no-repeat;
+	text-indent: -99999px;
+	background-position: 0 0;
+	width: 12px;
+	height: 12px;
+	top: 17px;
+	right: 2px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+/*标题下划块*/
+.tab_line{
+	position: absolute;
+	width: 40px;
+	height: 3px;
+	top: 46px;
+	left: 10px;
+	background: #9760e0;
+}
+/*下部内容*/
+.new_list {
+	float: left;
+	overflow: hidden;
+	width: 312px;
+	height: 200px;
+	margin: 0 24px;
+}
+.new_list_Whole{
+	position: relative;
+	width: 1248px;
+	height: 200px;
+}
+.new_list_C {
+	float: left;
+	overflow: hidden;
+	width: 312px;
+	height: 200px;
+}
+.new_list_C ul li{
+	float: left;
+	width: 100%;
+	height: 28px;
+}
+.new_list_C ul li a{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+}
+.new_list_C ul li span{
+	float: right;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+}
+/*----------------------------------------------第二部分：账号 活动---------------------------------*/
+.main_part2{
+	float: left;
+	width: 100%;
+	height: 120px;
+	margin-bottom: 40px;
+}
+/*------------左边部分-------------*/
+.main_part2_l{
+	float: left;
+	overflow: hidden;
+	width: 207px;
+	height: 100%;
+}
+/*--左边部分  上部分-*/
+.main_part2_l_t{
+	float: left;
+	width: 100%;
+	height: 98px;
+}
+.main_part2_l_t a{
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 103px;
+	height: 48px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	line-height: 48px;
+	background-color: #fff;
+}
+/*--图标-*/
+.main_part2_l_t a em{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 15px;
+	left: 16px;
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition:all ease 0.4s;
+	transition: all ease 0.4s;
+}
+/*--文字-*/
+.main_part2_l_t a span{
+	position: absolute;
+	margin-left: 45px;
+	line-height: 48px;
+	font-size: 12px;
+	color: #303030;
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition:all ease 0.4s;
+	transition: all ease 0.4s;
+}
+.pay em{
+	background-position: 0 -60px;
+}
+.safe em{
+	background-position: -30px -60px;
+}
+.vip em{
+	background-position: -60px -60px;
+}
+.prize em{
+	background-position: -90px -60px;
+}
+.main_part2_l_t a:hover em{
+	left: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.main_part2_l_t a:hover span{
+	margin-left: 35px;
+}
+
+
+/*--左边部分  下部分-*/
+.main_part2_l_b{
+	float: left;
+	width: 100%;
+	height: 24px;
+}
+.main_part2_l_b li{
+	float: left;
+	width: 69px;
+	height: 100%;
+	background: #cecece;
+}
+/*--图标-*/
+.main_part2_l_b li a em{
+	width: 20px;
+	height: 23px;
+	margin-left: 25px;
+}
+/*--文字-*/
+.main_part2_l_b li span{
+	float: right;
+	color: #fff;
+}
+/*--鼠标移入遮罩层-*/
+.main_part2_l_b li p{
+	display: none;
+	position: absolute;
+	background-color: rgba(0,0,0,.7);
+	width: 68px;
+	height: 23px;
+	line-height: 23px;
+	color: #fff;
+	text-align: center;
+	z-index: 999;
+}
+/*二维码*/
+.main_part2_l_b li img{
+	display: block;
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	margin-top: -194px;
+	filter: alpha(opacity=0);
+	opacity: 1;
+	-webkit-transition: all ease 0.6s;
+	-moz-transition: all ease 0.6s;
+	-o-transition:all ease 0.6s;
+	transition: all ease 0.6s;
+}
+/*微信*/
+.wx{
+	position: relative;
+}
+.wx em{
+	background-position: -60px -27px;
+}
+.wx img{
+	margin-left: 0;
+}
+/*微博*/
+.wb{
+	position: relative;
+}
+.wb em{
+	background-position: -90px -27px;
+}
+.wb img{
+	margin-left: -15px;
+}
+
+.wx:hover p{
+	display: block;
+}
+.wx:hover img{
+	margin-top: -97px;
+	filter: alpha(opacity=1);
+	opacity: 1;
+	transform: rotate(360deg);
+}
+.wb:hover p{
+	display: block;
+}
+.wb:hover img{
+	margin-top: -97px;
+	filter: alpha(opacity=1);
+	opacity: 1;
+	transform: rotate(360deg);
+}
+
+/*YY*/
+.YY em{
+	background-position: -120px -28px;
+}
+/*------------右边部分-------------*/
+
+.main_part2_r{
+	position: relative;
+	float: right;
+	width: 816px;
+	height: 100%;
+}
+.main_part2_r a{
+	display: block;
+	float: left;
+	width: 192px;
+	height: 120px;
+	margin-right: 16px;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition:all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.main_part2_r a img{
+	display: block;
+	width: 192px;
+	height: 120px;
+}
+.main_part2_r a:hover{
+	-webkit-box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,104 @@
+
+/*-----------------------------------侧边栏----------------------------------------*/
+.S_go_back2{
+	position: fixed;
+	width: 50px;
+	height: 190px;
+	left: 100%;
+	top: 8%;
+	margin-left: -60px;
+	z-index: 999;
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*background: aqua;*/
+}
+.S_go_back2 a{
+	float: left;
+	width: 50px;
+	height: 60px;
+	-webkit-transition: 1.8s all ease;
+	-moz-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.S_go_back_img1_2{
+	float: left;
+	display: block;
+	background: url(../../img/S_go_back_img/S_go_back_img1.png);
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+
+}
+.S_go_back_img2_2{
+	float: left;
+	display: block;
+	background: url(../../img/S_go_back_img/S_go_back_img2.png);
+	background-size: 300% 300%;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+.S_go_back_img3_2{
+	float: left;
+	display: block;
+	background: url(../../img/S_go_back_img/S_go_back_img3.png);
+	background-size: 300% 300%;
+	background-position: 50% 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+.S_go_back2 h3{
+	float: left;
+	display: block;
+	font-size: xx-small;
+	width: 50px;
+	height: 20px;
+	margin: 0;
+	line-height: 20px;
+	font-weight: lighter;
+	text-align: center;
+	color: #333333;
+}
+.S_go_back2 p{
+	float: left;
+	display: block;
+	font-size: 8px;
+	text-align: center;
+	width: 50px;
+	height: 10px;
+	line-height: 10px;
+	-webkit-text-size-adjust:none;
+	color: #666;
+}
+.S_go_back1_2:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.2);
+}
+.S_go_back2_2:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.2);
+}
+.S_go_back3_2:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.2);
+}
+.S_go_back1_2:hover p{
+	font-weight: 400;
+}
+.S_go_back2_2:hover p{
+	font-weight: 400;
+}
+.S_go_back3_2:hover p{
+	 font-weight: 400;
+ }

@@ -1,0 +1,36 @@
+a:link {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.Photo_share_Content_t_r h4:hover{
+	text-decoration: none;
+	cursor:pointer;
+	color: #000;
+}
+.Photo_share_Content_t_r p:hover{
+	text-decoration: none;
+	cursor:pointer;
+	color: #000;
+}
+.Photo_share_Content_b a:hover{
+	text-decoration: none;
+	cursor:pointer;
+	color: #000;
+}
+.Contact_information_part2 span:hover{
+	text-decoration: none;
+	cursor:pointer;
+	color: #000;
+}
+.Cooperative_partner a:hover{
+	text-decoration: none;
+	cursor:pointer;
+	color: #000;
+}

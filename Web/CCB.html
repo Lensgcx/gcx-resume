@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>template</title>
+
+	<link rel="stylesheet" href="../static/css/min/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/CCB/CBB-index.css">
+	<link rel="stylesheet" href="../static/css/CCB/CBB-hover.css">
+	<link rel="stylesheet" href="../static/css/Side_go_back/Side_go_back.css">
+
+	<script src="../static/js/jquery/jquery-3.1.0.js"></script>
+	<script src="../static/js/CBB-index.js"></script>
+</head>
+<body>
+	<!--正文部分-->
+	<div class="page-Whole">
+		<!--顶部-->
+		<div class="top-header">
+			<div class="top-header-part1">
+				<div class="top-header-part1-content">
+					<div class="top-header-part1-content-left">
+						<ul>
+							<li><a href="javescript:void(0)">个人客户</a></li>
+							<li><a href="javescript:void(0)">私人银行</a></li>
+							<li><a href="javescript:void(0)">公司机构</a></li>
+							<li><a href="javescript:void(0)">小微企业</a>
+							<li class="Business">
+								<span>
+									<img src="../static/img/CCB/top/sr_icon.png" alt="sr_icon">
+								</span>
+							</li>
+							<li id="Business-text" style="">
+								<a href="http://buy.ccb.com/" target="_blank">个人商城</a>
+								<a href="http://buy.ccb.com/" style="width: 48px;height: 17px" target="_blank">企业商城</a>
+							</li>
+						</ul>
+
+					</div>
+					<div class="top-header-part1-content-right">
+						<ul>
+							<li style="width: 118px"><a href="javescript:void(0)">客服热线：95533</a></li>
+							<li style="width: 79px"><a href="javescript:void(0)">在线客服</a></li>
+							<li style="width: 12px"><a href="javescript:void(0)">|</a></li>
+							<li style="width: 56px"><a href="javescript:void(0)">建行集团</a></li>
+							<li style="width: 56px"><a href="javescript:void(0)">国内分行</a></li>
+							<li style="width: 74px"><a href="javescript:void(0)">网店及ATM</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="top-header-part2">
+				<div class="top-header-part2-content">
+					<div class="top-header-part2-content-logo">
+						<a href="#">
+							<img src="../static/img/CCB/top/20151201084052927594.png" alt="logo">
+						</a>
+					</div>
+					<div class="top-header-part2-content-select">
+						<a href="">杭州市</a>
+					</div>
+					<div class="top-header-part2-content-items">
+						<ul>
+							<li style="width: 82px"><a href="#" style="width: 82px">信用卡</a></li>
+							<li style="width: 100px"><a href="#">理财投资</a></li>
+							<li style="width: 136px"><a href="#" style="width: 136px">存贷及银行卡</a></li>
+							<li style="width: 100px"><a href="#">电子银行</a></li>
+							<li style="width: 100px"><a href="#">悦享生活</a></li>
+							<li style="width: 100px"><a href="#" >优智规划</a></li>
+						</ul>
+					</div>
+					<div class="top-header-part2-content-search">
+						<div></div>
+						<a href="#"><img src="../static/img/CCB/top/fdj.png" alt="search"></a>
+					</div>
+
+				</div>
+				<!--登录部分*-->
+				<div class="top-header-part2-go">
+					<div class="top-header-part2-go-top">
+						<div><span>&nbsp;个人网上银行</span></div>
+						<a href="#" id="denglu">登录</a>
+					</div>
+					<div class="top-header-part2-go-bottom" ></div>
+
+					<!--业务下拉选择菜单-->
+					<div class="top-header-part2-go-select">
+						<ul>
+							<li>&nbsp;个人网上银行</li>
+							<li>&nbsp;私人网上银行</li>
+							<li>&nbsp;网站</li>
+							<li>&nbsp;善融商务</li>
+						</ul>
+					</div>
+					<script>
+					var oTopHeaderP2GoTop=document.querySelector('.top-header-part2-go-top');
+					var oTopHeaderP2select=document.querySelector('.top-header-part2-go-select');
+					oTopHeaderP2GoTop.onclick=function(){
+						oTopHeaderP2select.style.display="block"
+					};
+					oTopHeaderP2GoTop.onmouseout=function(){
+						oTopHeaderP2select.style.display="none"
+					};
+					oTopHeaderP2select.onmouseover=function(){
+						oTopHeaderP2select.style.display="block"
+					};
+					oTopHeaderP2select.onmouseout=function(){
+						oTopHeaderP2select.style.display="none"
+					};
+
+					</script>
+					<!--底部内容下拉选择菜单-->
+					<div class="top-header-part2-go-upopen">
+						<div class="top-header-part2-go-upopen-top">
+							<ul id="open-ul">
+								<li><a href="javescript:void(0)">安全指引</a></li>
+								<li><a href="javescript:void(0)">下载中心</a></li>
+								<li><a href="javescript:void(0)">功能演示</a></li>
+								<li><a href="javescript:void(0)">注册开通</a></li>
+							</ul>
+						</div>
+						<div class="top-header-part2-go-upopen-bottom">
+							<div class="top-header-part2-go-upopen-bottom-back">
+								<ul>
+									<li><a href="javescript:void(0)">进入我的.com</a></li>
+									<li><a href="javescript:void(0)">善融商务</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<script>
+					var oTopHeaderP2GoBottom=document.querySelector('.top-header-part2-go-bottom');
+					var oTopHeaderP2GoUpopen=document.querySelector('.top-header-part2-go-upopen');
+
+					var $bottom=$(".top-header-part2-go-bottom" );
+					var $upopen=$(".top-header-part2-go-upopen" );
+					var $upopenBack=$(".top-header-part2-go-upopen-bottom-back" );
+
+					$bottom.mouseover(function(){
+						$upopen.fadeIn(1000);
+						$bottom.css("height","50px")
+					});
+					$bottom.mouseout(function(){
+//						$upopen.fadeOut(1000);
+						$upopen.css("display","none")
+					});
+					oTopHeaderP2GoUpopen.onmouseover=function(){
+						oTopHeaderP2GoUpopen.style.display="block";
+					};
+					oTopHeaderP2GoUpopen.onmouseout=function(){
+						oTopHeaderP2GoUpopen.style.display="none";
+					};
+
+					</script>
+				</div>
+			</div>
+			<!--顶部   轮播图部分-->
+			<div class="top-header-part3">
+				<div id="tab">
+					<div class="top-header-img">
+						<a class="top-header-img1" href="#"></a>
+						<a class="top-header-img2" href=""></a>
+						<a class="top-header-img3" href=""></a>
+						<a class="top-header-img4" href=""></a>
+						<a class="top-header-img5" href=""></a>
+						<a class="top-header-img6" href=""></a>
+					</div>
+					<div class="FlipDot">
+						<input type="button" style="background: #1693f1;">
+						<input type="button">
+						<input type="button">
+						<input type="button">
+						<input type="button">
+						<input type="button">
+					</div>
+					<div class="direction">
+						<span>●</span>
+						<span class="direction-span2">●</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--中间部分-->
+		<div class="middle-part">
+			<!--中间第一部分-->
+			<div class="middle-part1">
+				<div class="middle-part1-leftclick">
+					<a href="javescript:void(0)" class="leftclick1"></a>
+					<a href="javescript:void(0)" class="leftclick2"></a>
+				</div>
+				<div class="middle-part1-content">
+					<div class="middle-part1-content-totle">
+						<div class="middle-part1-content1">
+							<div class="middle-part1-content1-top">
+								<div class="middle-part1-content1-topl">
+									<img src="../static/img/CCB/middle-part/zh%20(1).png" alt="zh">
+								</div>
+								<div class="middle-part1-content1-topr">
+									<div class="middle-part1-content1-topr-t">
+										账户查询
+									</div>
+									<div class="middle-part1-content1-topr-b">
+										快速查询各类账户信息
+									</div>
+								</div>
+
+							</div>
+							<a class="middle-part1-content1-bottom">
+								<div>
+									马上查询
+									<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+								</div>
+
+							</a>
+						</div>
+						<div class="middle-part1-content1">
+							<div class="middle-part1-content1-top">
+								<div class="middle-part1-content1-topl">
+									<img src="../static/img/CCB/middle-part/sh.png" alt="dianhua">
+								</div>
+								<div class="middle-part1-content1-topr">
+									<div class="middle-part1-content1-topr-t">
+										悦生活
+									</div>
+									<div class="middle-part1-content1-topr-b">
+										生活缴费充值 信用卡
+									</div>
+								</div>
+
+							</div>
+							<a class="middle-part1-content1-bottom">
+								<div>
+									<span>马上办理</span>
+									<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+								</div>
+
+							</a>
+						</div>
+						<div class="middle-part1-content1">
+							<div class="middle-part1-content1-top">
+								<div class="middle-part1-content1-topl">
+									<img src="../static/img/CCB/middle-part/yw.png" alt="dianhua">
+								</div>
+								<div class="middle-part1-content1-topr">
+									<div class="middle-part1-content1-topr-t">
+										业务申请
+									</div>
+									<div class="middle-part1-content1-topr-b">
+										信用卡、贷款快速申请
+									</div>
+								</div>
+
+							</div>
+							<a class="middle-part1-content1-bottom">
+								<div>
+									<span>马上申请</span>
+									<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+								</div>
+
+							</a>
+						</div>
+						<div class="middle-part1-content1">
+							<div class="middle-part1-content1-top">
+								<div class="middle-part1-content1-topl">
+									<img src="../static/img/CCB/middle-part/wd.gif" alt="wangdian">
+								</div>
+								<div class="middle-part1-content1-topr">
+									<div class="middle-part1-content1-topr-t">
+										网点业务预约
+									</div>
+									<div class="middle-part1-content1-topr-b">
+										在线填单取号 网点办理
+									</div>
+								</div>
+
+							</div>
+							<a class="middle-part1-content1-bottom">
+								<div>
+									<span>马上预约</span>
+									<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+								</div>
+
+							</a>
+						</div>
+						<div class="middle-part1-content1">
+								<div class="middle-part1-content1-top">
+									<div class="middle-part1-content1-topl">
+										<img src="../static/img/CCB/middle-part/dh.png" alt="dianhua">
+									</div>
+									<div class="middle-part1-content1-topr">
+										<div class="middle-part1-content1-topr-t">
+											电话银行菜单定制
+										</div>
+										<div class="middle-part1-content1-topr-b">
+											彰显个性 定制电话菜单
+										</div>
+									</div>
+
+								</div>
+								<a class="middle-part1-content1-bottom">
+									<div>
+										<span>马上预约</span>
+										<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+									</div>
+
+								</a>
+							</div>
+						<div class="middle-part1-content1">
+								<div class="middle-part1-content1-top">
+									<div class="middle-part1-content1-topl">
+										<img src="../static/img/CCB/middle-part/sj.png" alt="shouji">
+									</div>
+									<div class="middle-part1-content1-topr">
+										<div class="middle-part1-content1-topr-t">
+											电子银行开通
+										</div>
+										<div class="middle-part1-content1-topr-b">
+											金融生活 e路随行
+										</div>
+									</div>
+
+								</div>
+								<a class="middle-part1-content1-bottom">
+									<div>
+										<span>马上预约</span>
+										<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+									</div>
+
+								</a>
+							</div>
+						<div class="middle-part1-content1">
+							<div class="middle-part1-content1-top">
+								<div class="middle-part1-content1-topl">
+									<img src="../static/img/CCB/middle-part/sl.png" alt="sl">
+								</div>
+								<div class="middle-part1-content1-topr">
+									<div class="middle-part1-content1-topr-t">
+										常用下载
+									</div>
+									<div class="middle-part1-content1-topr-b">
+										客户端 E路护航 证书下载
+									</div>
+								</div>
+
+							</div>
+							<a class="middle-part1-content1-bottom">
+								<div>
+									<span>马上预约</span>
+									<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+								</div>
+
+							</a>
+						</div>
+						<div class="middle-part1-content1">
+							<div class="middle-part1-content1-top">
+								<div class="middle-part1-content1-topl">
+									<img src="../static/img/CCB/middle-part/xx.gif" alt="xx">
+								</div>
+								<div class="middle-part1-content1-topr">
+									<div class="middle-part1-content1-topr-t">
+										利率与行情
+									</div>
+									<div class="middle-part1-content1-topr-b">
+										存贷利率 外汇贵金属行情
+									</div>
+								</div>
+
+							</div>
+							<a class="middle-part1-content1-bottom">
+								<div>
+									<span>马上预约</span>
+									<img src="../static/img/CCB/middle-part/up_icon.png" alt="up">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="middle-part1-rightclick">
+					<a href="javescript:void(0)" class="rightclick1"></a>
+					<a href="javescript:void(0)" class="rightclick2"></a>
+				</div>
+
+				<div class="FlipDot2">
+					<input type="button" style="background: skyblue">
+					<input type="button">
+					<input type="button">
+					<input type="button">
+					<input type="button">
+					<input type="button">
+					<input type="button">
+					<input type="button">
+				</div>
+			</div>
+			<!--中间第二部分-->
+			<div class="middle-part2">
+				<div style="width: 100%;height: 10px;background: white;float: left;"></div>
+				<div class="middle-part2-back">
+					<div class="middle-part2-title">
+						<span>快易金融</span>
+						<div>
+							集成资讯 产品 工具 服务，轻松选择 便捷交易
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--中间第三部分-->
+			<div class="middle-part3">
+				<div class="middle-part3-back">
+					<div class="middle-part3-title">
+						<ul class="middle-part3-title-ul">
+							<li style="width: 90px;border-bottom: 4px solid #0066B3;" class="middle-part3-title1"><a href="#">信用卡</a></li>
+							<li style="width: 108px" class="middle-part3-title2"><a href="#">投资理财</a></li>
+							<li style="width: 108px" class="middle-part3-title3"><a href="#">个人贷款</a></li>
+							<li style="width: 108px" class="middle-part3-title4"><a href="#">电子银行</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--中间第四部分-->
+			<div class="middle-part4">
+				<div class="middle-part4-content">
+					<div class="middle-part4-content-replace4" id="middle-part4-content-replace4-1" style="display:block;position: absolute">
+						<div class="middle-part4-content-left">
+							<div class="middle-part4-content-left-t">
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">在线申请></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>选卡种、填资料</li>
+										<li>3分钟完成</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">积分兑换></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>海量商品</li>
+										<li>随心换</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">账单分期></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>账单轻松分</li>
+										<li>还款更灵活</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">优惠活动></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>精选优惠</li>
+										<li>乐享无限</li>
+									</ul>
+								</div>
+							</div>
+							<div class="middle-part4-content-left-b">
+								<div><a href="#"><img src="../static/img/CCB/middle-part/1-1.jpg" alt="xyk"></a></div>
+								<div><a href="#"><img src="../static/img/CCB/middle-part/1-2.jpg" alt="chhlg"></a></div>
+							</div>
+						</div>
+						<div class="middle-part4-content-right">
+							<a href="">
+								<img src="../static/img/CCB/middle-part/xyk%20-dt.jpg" alt="middle4">
+							</a>
+						</div>
+					</div>
+
+					<div class="middle-part4-content-replace4" id="middle-part4-content-replace4-2" style="display:none;position: absolute">
+						<div class="middle-part4-content-left">
+							<div class="middle-part4-content-left-t">
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">理财产品></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>综合账户管理</li>
+										<li>专业金融服务</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">基金></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>上千只产品</li>
+										<li>助您轻松选择</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">保险></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>为生活添一份保障</li>
+										<li>为理财多一种选择</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">贵金属/商品></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>产品种类丰富</li>
+										<li>行情一目了然</li>
+									</ul>
+								</div>
+							</div>
+							<div class="middle-part4-content-left-b">
+								<div><a href="#"><img src="../static/img/CCB/middle-part/2-1.jpg" alt="xyk"></a></div>
+								<div><a href="#"><img src="../static/img/CCB/middle-part/2-2.jpg" alt="chhlg"></a></div>
+							</div>
+						</div>
+						<div class="middle-part4-content-right">
+							<a href="">
+								<img src="../static/img/CCB/middle-part/tzlc.jpg" alt="middle4">
+							</a>
+						</div>
+					</div>
+
+					<div class="middle-part4-content-replace4" id="middle-part4-content-replace4-3" style="display:none;position: absolute">
+						<div class="middle-part4-content-left">
+							<div class="middle-part4-content-left-t">
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">住房贷款></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>要买房 到建行</li>
+										<li>圆你住房梦</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">消费类贷款></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>买车 装修 旅游 求学</li>
+										<li>生活梦想 早日实现</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">经营类贷款></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>建行助业贷</li>
+										<li>您的事业推进器</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">建行“快贷”></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>在线实时审批</li>
+										<li>贷款快人一步</li>
+									</ul>
+								</div>
+							</div>
+							<div class="middle-part4-content-left-b">
+								<div><a href="#"><img src="../static/img/CCB/middle-part/3-1.jpg" alt="xyk"></a></div>
+								<div><a href="#"><img src="../static/img/CCB/middle-part/3-2.jpg" alt="chhlg"></a></div>
+							</div>
+						</div>
+						<div class="middle-part4-content-right">
+							<a href="">
+								<img src="../static/img/CCB/middle-part/grdk.jpg" alt="middle4">
+							</a>
+						</div>
+					</div>
+
+					<div class="middle-part4-content-replace4" id="middle-part4-content-replace4-4" style="display:none;position: absolute">
+						<div class="middle-part4-content-left">
+							<div class="middle-part4-content-left-t">
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">手机银行></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>功能丰富、便捷安全</li>
+										<li>7×24小时的随身银行</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">网上银行></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>综合账户管理</li>
+										<li>专业金融服务</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">微信银行></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>查询、缴费、投资理财</li>
+										<li>智能微信客服陪伴您</li>
+									</ul>
+								</div>
+								<div class="middle-part4-content-left-t1">
+									<div class="middle-part4-content-left-t1-title"><a href="#">电话银行></a></div>
+									<ul class="middle-part4-content-left-t1-jx">
+										<li>随时随地号码统一</li>
+										<li>方便快捷功能强大</li>
+									</ul>
+								</div>
+							</div>
+							<div class="middle-part4-content-left-b">
+								<div><a href="#"><img src="../static/img/CCB/middle-part/4-1.jpg" alt="xyk"></a></div>
+								<div><a href="#"><img src="../static/img/CCB/middle-part/4-2.png" alt="chhlg"></a></div>
+							</div>
+						</div>
+						<div class="middle-part4-content-right">
+							<a href="">
+								<img src="../static/img/CCB/middle-part/dzyh.jpg" alt="middle4">
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!--中间第五部分-->
+			<div class="middle-part5">
+				<div class="middle-part5-content">
+					<ul>
+						<li style="width: 113px;height: 94px">
+							<img src="../static/img/CCB/middle-part/hhy.png" alt="hhy" style="margin-top: 30px">
+						</li>
+						<li>
+							<a href="" class="middle-part5-content-part-a"><img src="../static/img/CCB/middle-part/women1.png" alt=""></a>
+							<div class="middle-part5-content-part-div" style="width: 111px"><a href="#" style="width: 98px">轻松办理信用卡</a></div>
+						</li>
+						<li>
+							<a href="" class="middle-part5-content-part-a"><img src="../static/img/CCB/middle-part/men1.png" alt=""></a>
+							<div class="middle-part5-content-part-div"><a href="">最新优惠、热门活动随心查</a></div>
+						</li>
+						<li>
+							<a href="" class="middle-part5-content-part-a"><img src="../static/img/CCB/middle-part/women2%20.png" alt=""></a>
+							<div class="middle-part5-content-part-div"><a href="">账单查询、办理分期更便捷</a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--底部部分-->
+		<div class="bottom">
+			<!--底部第一部分-->
+			<div class="bottom-part1">
+				<div class="bottom-part1-content">
+					<div class="bottom-part1-content-part1">
+						<a href="#">
+							<img src="../static/img/CCB/bottom/footer_links_img.gif" alt="footer">
+						</a>
+					</div>
+					<ul class="bottom-part1-content-part2">
+						<li style="width: 88px">
+							<a href="#" style="width: 70px">服务价目表</a>
+						</li>
+						<li>
+							<a href="#">诚聘英才</a>
+						</li>
+						<li style="width: 116px">
+							<a href="#" style="width: 98px">积分圆梦微公益</a>
+						</li>
+						<li>
+							<a href="#">网站地图</a>
+						</li>
+						<li>
+							<a href="#">网站声明</a>
+						</li>
+						<li>
+							<a href="#">友情链接</a>
+						</li>
+					</ul>
+					<div class="bottom-part1-content-part3">
+						<a href="#" style="width: 28px">繁体</a>
+						<span>/</span>
+						<a href="#" style="width: 59px">ENGLISH</a>
+					</div>
+
+				</div>
+			</div>
+			<!--底部第二部分-->
+			<div class="bottom-part2">
+				<div class="bottom-part2-content">
+					<div class="bottom-part2-content-part1">
+						<div class="bottom-part2-content-part1-img">
+							<img src="../static/img/CCB/bottom/copy_right_img.gif" alt="copy-right">
+						</div>
+						<div class="bottom-part2-content-part1-text">
+							<span style="width: 182px;">© 版权所有中国建设银行</span>
+							<span style="width: 153px;">京ICP备13030780号</span>
+							<span style="width: 205px;">京公网安备：110102000450</span>
+							<br>
+							<span style="width: 279px;">总行地址：中国北京西城区金融大街25号</span>
+							<span style="width: 115px;">邮编：100033</span>
+							<span style="width: 166px">手机网站：m.ccb.com</span>
+						</div>
+					</div>
+					<div class="bottom-part2-content-part2">
+						<ul>
+							<li>
+								<img src="../static/img/CCB/bottom/wb.382411751461452652833.jpg" alt="weibo">
+								<span>官网微博</span>
+							</li>
+							<li>
+								<img src="../static/img/CCB/bottom/weixin.382411751461452652852.jpg" alt="weixin">
+								<span>微信银行</span>
+							</li>
+							<li>
+								<img src="../static/img/CCB/bottom/sj.jpg" alt="shouji">
+								<span>手机银行</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--侧边栏-->
+	<div class="sidebar">
+		<div class="sidebar-content">
+			<ul>
+				<a href="#"><li class="sidebar-content-li1">我的.com</li></a>
+				<a href="#"><li class="sidebar-content-li2">优惠直通</li></a>
+				<a href="#"><li class="sidebar-content-li3">分行推荐</li></a>
+				<a href="#"><li class="sidebar-content-li4">快速帮助</li></a>
+			</ul>
+		</div>
+	</div>
+	<!--换页 返回侧边栏-->
+	<div class="S_go_back" style="background:rgba(255,255,255,0.6);top:7.5%;">
+		<a href="../Gcx-resume.html" class="S_go_back1" style="height: 72px;">
+			<div class="S_go_back_img1"></div>
+			<h3>简历首页</h3>
+		</a>
+		<a href="Myla.html" class="S_go_back2">
+			<div class="S_go_back_img2"></div>
+			<h3>上一内容:</h3>
+			<p>My la</p>
+		</a>
+		<a href="中企动力.html" class="S_go_back3">
+			<div class="S_go_back_img3"></div>
+			<h3>下一内容</h3>
+			<p>中企动力</p>
+		</a>
+	</div>
+</body>
+</html>

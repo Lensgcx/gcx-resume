@@ -1,0 +1,416 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+}
+html,body{
+	height: 100%;
+	min-width: 1000px;
+	min-height: 670px;
+	background: black;
+	-moz-user-select:  none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.board td{
+	width: 10px;
+	height: 10px;
+	color: #46ffc6;
+}
+.board table{
+	position: absolute;
+	margin: 3px 0 0 5px;
+	z-index: 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px
+}
+.snake_img{
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	-webkit-transition: 0.8s all ease;
+	-moz-transition: 0.8s all ease;
+	-o-transition: 0.8s all ease;
+	transition: 0.8s all ease;
+}
+/*所有整体*/
+#ALL_Whole{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+	min-height: 670px;
+	background: seagreen;
+	background-image: url(../../img/hungry_snake/background.jpg);
+	background-size: 110% 160%;
+	background-position: 1% 70%;
+}
+/*背景音乐*/
+.BGM{
+	position: absolute;
+	width: 0;
+	height: 0;
+	display: none;
+}
+/*贪吃蛇 游戏 整体*/
+.snake_Whole{
+	position: absolute;
+	width: 850px;
+	height: 450px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+/*贪吃蛇 游戏 内容*/
+.snake_content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.8);
+	overflow: hidden;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 2px 15px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 2px 15px rgba(255, 255, 255, 1);
+	box-shadow: 0 2px 15px rgba(255, 255, 255, 1);
+}
+/*游戏标题*/
+.board_tlt{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: rgba(255,255,255,0.5);
+	/*background: aqua;*/
+}
+.board_tlt_img{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background-image: url(../../img/hungry_snake/TITLE.png);
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+.board_tlt h1{
+	position: absolute;
+	display: inline;
+	font-size: 28px;
+	color: slateblue;
+	font-weight: 600;
+	margin: 0 0 0 35px;
+}
+.board_tlt h4{
+	position: absolute;
+	display: inline;
+	font-size: 12px;
+	line-height: 46px;
+	color: #666;
+	margin: 0 0 0 240px;
+}
+
+
+/*游戏 进行界面*/
+.board{
+	position: absolute;
+	width: 830px;
+	height: 395px;
+	padding: 5px 10px 10px;
+	margin: 5px 0 0 0;
+	overflow: hidden;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+/*游戏失败出现的文字*/
+.over_text{
+	position: absolute;
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity: 0;
+	color: #8a72ff;
+	z-index: 10;
+}
+.game_over1{
+	font-size: 100px;
+	margin: 40px 0 0 130px;
+}
+.game_over2{
+	font-size: 60px;
+	margin: 170px 0 0 130px;
+}
+
+/*游戏失败出现的   返回按钮*/
+
+.back1{
+	display: block;
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	background-image: url(../../img/hungry_snake/snake_back3.png);
+	margin: 270px 0 0 250px;
+	top: 110px;
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity: 0;
+	z-index: 10;
+}
+/*左边部分*/
+.action_part {
+	float: right;
+	width: 200px;
+	height: 384px;
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+/*按钮部分*/
+.action_part_btn{
+	float: left;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin: 0 10px;
+	overflow: hidden;
+	opacity: 1;
+	-webkit-transition: 0.8s all ease;
+	-moz-transition: 0.8s all ease;
+	-o-transition: 0.8s all ease;
+	transition: 0.8s all ease;
+}
+/*继续按钮*/
+.snake_start2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../img/hungry_snake/snake_start2.png);
+}
+/*停止按钮*/
+.snake_stop{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../img/hungry_snake/snake_stop.png);
+}
+.action_part_btn:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.05);
+}
+/*返回按钮2*/
+.back2{
+	float: right;
+	position: relative;
+	width: 85px;
+	height: 85px;
+	margin-right: 10px;
+	background-image: url(../../img/hungry_snake/snake_back1.png);
+}
+.snake_back:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.05);
+}
+/*得分部分*/
+.Score{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 70px;
+	margin: 5px 0 0 0;
+	-webkit-box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.45);
+	-moz-box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.45);
+	box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.45);
+}
+/*得分标题*/
+.Score h3{
+	width: 100%;
+	height: 40px;
+	font-size: 24px;
+	color: #333;
+}
+/*得分显示部分*/
+#Score{
+	display: block;
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: slateblue;
+}
+/*下面的图片*/
+.action_part_img{
+	float: left;
+	position:relative;
+	width: 200px;
+	height: 205px;
+	margin: 5px 0 0 0;
+	background-image: url(../../img/hungry_snake/action_part_img1.png);
+}
+/*游戏封面*/
+.cover{
+	position: absolute;
+	width: 850px;
+	height: 450px;
+	left: 0;
+	margin-top:-35px;
+	background-image: url(../../img/hungry_snake/snake_cover.jpg);
+	opacity: 1;
+	z-index: 100;
+}
+/*游戏封面  大标题*/
+.cover_tlt{
+	position: absolute;
+	font-family: "YouYuan";
+	font-weight: bolder;
+	color: #118237;
+	-webkit-text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+	-moz-text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+	text-shadow: 0 3px 10px rgba(17, 130, 55, 0.7);
+}
+.C_t1{
+	font-size: 35px;
+	margin: 140px 0 0 200px;
+}
+.C_t2{
+	font-size: 70px;
+	margin: 180px 0 0 230px;
+}
+
+/*游戏封面  开始按钮*/
+.snake_start1{
+	position: absolute;
+	width: 120px;
+	height:120px;
+	background-image: url(../../img/hungry_snake/snake_start1.png);
+	margin: 270px 0 0 270px;
+}
+.snake_start1:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.05);
+}
+
+/*游戏规则和方法  按钮*/
+.snake_Question{
+	position: absolute;
+	width: 60px;
+	height:60px;;
+	background-image: url(../../img/hungry_snake/1.png);
+	margin: 320px 0 0 560px;
+}
+.snake_Question:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.1);
+}
+
+/*游戏设置，选项部分*/
+.snake_option{
+	position: absolute;
+	width: 245px;
+	height:220px;
+	margin: 125px 0 0 500px;
+}
+/*设置标题*/
+.snake_option h4{
+	font-size: 30px;
+	font-weight: 600;
+}
+.snake_option label{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 10px 5px;
+}
+/*单选框*/
+.snake_option input{
+	width: 18px;
+	height: 18px;
+	padding: 2px;
+}
+
+/*游戏规则和方法*/
+.Question{
+	position: absolute;
+	width: 850px;
+	height: 460px;
+	left: 850px;
+	margin-top:-35px;
+	background-image: url(../../img/hungry_snake/snake_cover.jpg);
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	z-index: 200;
+}
+/*游戏规则和方法   文字部分*/
+.snake_text{
+	position: absolute;
+	width: 350px;
+	height: auto;
+	margin: 115px 0 0 280px;
+}
+/*游戏规则和方法  大标题*/
+.snake_text_tlt{
+	padding: 5px 0 ;
+	font-size: 30px;
+	font-weight: 600;
+	color: #0b4f23;
+	-webkit-text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+	-moz-text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+	text-shadow: 0 3px 10px rgba(17, 130, 55, 0.7);
+}
+/*游戏规则和方法  大标题 注释*/
+.snake_text_tlt span{
+	font-size: 12px;
+	color: #0b4f23;
+}
+/*游戏规则和方法  小标题*/
+.snake_text_tlt2{
+	font-size: 16px;
+	color: #0b4f23;
+	font-weight: 600;
+}
+/*游戏规则和方法  正文部分*/
+.snake_text p{
+	font-size: 14px;
+	color: #148e3f;
+	font-weight: 600;
+	padding: 5px 0 ;
+}
+/*游戏规则和方法  动图*/
+.snake_gif{
+	position: absolute;
+	width: 150px;
+	height:130px;;
+	background-image: url(../../img/hungry_snake/snake.gif);
+	margin: 230px 0 0 130px;
+}
+/*游戏规则和方法  返回封面*/
+.snake_back2{
+	position: absolute;
+	width: 100px;
+	height:100px;;
+	background-image: url(../../img/hungry_snake/snake_back2.png);
+	margin: 210px 0 0 660px;
+}
+.snake_back2:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.05);
+}
+
+
+
+
+
+
+
+
+

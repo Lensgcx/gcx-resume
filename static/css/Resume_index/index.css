@@ -1,0 +1,57 @@
+
+/*!*首页内容*!文字内容*/
+
+.b_tit_Go{
+	position: absolute;
+	width: 620px;
+	height:250px;
+	/*background: #ff7c51;*/
+	top: 15%;
+	left: 50px;
+}
+.b_tit_Go p{
+	display: block;
+	float: left;
+	font-family: gothic-webfont;
+	width: 100%;
+	color: black;
+	font-weight: 600;
+	font-size: 20px;
+	height: 40px; ;
+	line-height: 40px;
+	padding: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 3;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+.b_tit_Go p span{
+	font-size: 24px;
+	font-weight: 400;
+	height: 40px; ;
+	line-height: 40px;
+	color: black;
+}
+.b_tit_Go p a{
+	font-size: 24px;
+	font-weight: 400;
+	height: 40px; ;
+	line-height: 40px;
+	color: black;
+}
+.resume_part_index_img{
+	position: absolute;
+	background: url(../../img/index/index.png);
+	background-size: 100% 100%;
+	width:800px;
+	height: 800px;
+	-moz-opacity:0.6;
+	-khtml-opacity:0.6;
+	opacity: 0.6;
+	margin: -200px 0 0 220px;
+	-webkit-transform:rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+}
+

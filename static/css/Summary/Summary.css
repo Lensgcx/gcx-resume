@@ -1,0 +1,80 @@
+
+/*-------------------------------------核心竞争力 ----------------------------------- */
+
+.Summary_text{
+	position: absolute;
+	width: 980px;
+	height: auto;
+	padding: 10px 10px 0 10px;
+}
+.Summary_text_C{
+	float: left;
+	position: relative;
+	width: 100%;
+	font-size: 14px;
+	margin: 0 0 5px 0 ;
+	word-wrap: break-word;
+	-webkit-box-shadow:   0 1px 8px 1px rgba(75,75,75,0.1);
+	box-shadow: 0 1px 1px 1px rgba(75,75,75,0.1);
+ }
+.Summary_text_C span{
+	font-size: 18px;
+	color:slateblue ;
+}
+.Summary_text_C strong{
+	display: inline;
+	color:slateblue ;
+}
+.text_T{
+	font-size: 16px;
+}
+
+.chart2_img{
+	position: absolute;
+	margin: 20px 0 0 340px;
+	background: url(../../img/Summary/Summary1.png)no-repeat;
+	width: 658px;
+	height: 438px;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

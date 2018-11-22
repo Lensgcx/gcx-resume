@@ -1,0 +1,410 @@
+
+
+
+
+
+
+/*---------------------------------------------顶部------------------------------------------------------------*/
+/*---------------导航栏---------------*/
+.top_nav {
+	float: right;
+	width: 630px;
+	height: 51px;
+	text-align: center;
+	margin-top: 35px;
+	z-index: 100;
+}
+.top_nav_Whole{
+	position: relative;
+	float: left;
+	width: 70px;
+	height: 51px;
+}
+.top_nav_btn {
+	position: relative;
+	float: left;
+	height: 45px;
+	padding-top: 6px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #666;
+	width: 70px;
+	outline: none;
+	z-index: 999;
+	top: 0;
+	-webkit-transition:  all linear 0.45s;
+	-moz-transition: all linear 0.45s;
+	-o-transition:  all linear 0.45s;
+	transition: all linear 0.45s;
+}
+.top_nav_btn span {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	font-size: 12px;
+	width: 71px;
+	color: #bbbbbb;
+	line-height: 12px;
+	padding-bottom: 15px;
+	font-family: "Calibri";
+	z-index: 10;
+	top: 0;
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	transition: all linear 0.4s;
+}
+/*分割线*/
+.n{
+	float: left;
+	background: url(../../img/Muse/top/top/i2.png) no-repeat 0 3px;
+	width: 16px;
+	height: 51px;
+}
+
+/*-----下拉导航栏菜单-------*/
+
+.Navigation_menu{
+	position: absolute;
+	overflow: hidden;
+	width: 116px;
+	margin-left: -28px;
+	height: 0;
+	top: 60px;
+
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 10px 10px;
+
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	background: rgba(255,255,255,0.7);
+
+	-webkit-transition: all linear 0.28s;
+	-moz-transition: all linear 0.28s;
+	-o-transition: all linear 0.28s;
+	transition: all linear 0.28s;
+}
+.Navigation_menu li{
+	float: left;
+	position: relative;
+	width: 100%;
+	line-height: 24px;
+	height: 24px;
+	margin-bottom: 6px;
+	/*-webkit-transition: all ease 0.8s;*/
+	/*-moz-transition: all ease 0.8s;*/
+	/*-o-transition: all ease 0.8s;*/
+	transition: all ease 0.4s;
+}
+.wz{
+	display: block;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	padding: 0;
+	color: #2d2d2d;
+	font-size: 13px;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+/*-----鼠标移入效果-------*/
+
+.top_nav_Whole:hover .top_nav_btn {
+	top: 12px;
+	color:#aa0000;
+}
+.top_nav_Whole:hover .top_nav_btn span {
+	top: -30px;
+}
+.Navigation_menu li:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+	background: url(../../img/Muse/top/top/nav2.png) no-repeat -231px 0;
+}
+.top_nav_Whole:hover .menu1 {
+	height: 0;
+}
+.top_nav_Whole:hover .menu2{
+	height: 150px;
+}
+.top_nav_Whole:hover .menu3{
+	height: 180px;
+}
+.top_nav_Whole:hover .menu4{
+	height: 180px;
+}
+.top_nav_Whole:hover .menu5{
+	height: 120px;
+}
+.top_nav_Whole:hover .menu6{
+	height: 150px;
+}
+
+
+
+
+/*---------------------------------------------中间部分---------------------------------------------*/
+/*------------最新活动-----------*/
+
+/*图片所用特效*/
+.na_P_part1{
+	overflow: hidden;
+	position: relative;
+	float: left;
+	width: 290px;
+	height: 245px;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.na_P_part1 img{
+	position: relative;
+	width: 290px;
+	height: 245px;
+	top: 0;
+	left: 0;
+}
+.na_P_part1 .na_mask1{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: -100%;
+	background: url(../../img/Muse/main/new_activity/logo1.png) no-repeat;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.na_P_part1 .buttons {
+	position: absolute;
+	top: -100%;
+	left: 50%;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.na_P_part1 .buttons .fa {
+	margin: 0 1px;
+	background-color: rgb(256, 256, 256);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	color: rgba(50, 50, 50, 0.9);
+	display: inline-block;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+}
+.fa-link{
+	background-image: url(../../img/Muse/main/new_activity/link.svg);
+	background-size: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.fa-search{
+	background-image: url(../../img/Muse/main/new_activity/search.svg);
+	background-size: 35%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.na_P_part1:hover .buttons {
+	top: 50%;
+}
+.na_P_part1:hover .na_mask1 {
+	top: 0;
+}
+
+/*------------作品展示-----------*/
+
+.ws_p_part1{
+	overflow: hidden;
+	position: relative;
+	float: left;
+	width: 233px;
+	height: 400px;
+	margin-top: 14px;
+	padding: 0 5px 0 5px;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.ws_p_part1 a{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	top: 0;
+	left: 0;
+}
+.ws_p_part1 a img{
+	float: left;
+	display: block;
+	width: 233px;
+	height: 350px;
+	background-position: 50% 0;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+.ws_p_part1 a span{
+	float: left;
+	display: block;
+	width: 233px;
+	height: 38px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #BDBDBD;
+	padding-top: 12px;
+	text-align: center;
+	white-space: nowrap;
+	text-transform: uppercase;
+}
+.ws_p_part1 .ws_mask1 {
+	position: absolute;
+	background: url(../../img/Muse/main/work_show/ws_mask1.png) no-repeat;
+	background-size: 100% 100%;
+	height: 400px;
+	width: 243px;
+	left: 0;
+	top: -100%;
+	-webkit-transition: all ease 0.7s;
+	-moz-transition: all ease 0.7s;
+	-o-transition: all ease 0.7s;
+	transition: all ease 0.7s;
+}
+.ws_p_part1 .ws_mask2 {
+	position: absolute;
+	background: url(../../img/Muse/main/work_show/ws_mask1.png) no-repeat;
+	background-size: 100% 100%;
+	height: 400px;
+	width: 243px;
+	left: 0;
+	top: 100%;
+	-webkit-transition: all ease 0.7s;
+	-moz-transition: all ease 0.7s;
+	-o-transition: all ease 0.7s;
+	transition: all ease 0.7s;
+}
+.ws_p_part1 .buttons {
+	position: absolute;
+	top: 8%;
+	left: 88%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.ws_p_part1 .buttons .fa {
+	background-color: rgb(256, 256, 256);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	color: rgba(50, 50, 50, 0.9);
+	display: inline-block;
+	margin: 0 1px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	-webkit-transition: all 0.2s 0.38s;
+	-moz-transition: all 0.2s 0.38s;
+	-o-transition: all 0.2s 0.38s;
+	transition: all 0.2s 0.38s;
+	opacity: 0;
+}
+.ws_p_part1:hover .ws_mask1 {
+	top: 0;
+}
+.ws_p_part1:hover .ws_mask2 {
+	top: 0;
+}
+.ws_p_part1:hover .buttons .fa {
+	opacity: 1;
+}
+
+/*------------中间图片 及放大效果-----------*/
+
+.middle_picture{
+	overflow:hidden ;
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 267px;
+	padding: 30px 0;
+	margin: 30px 0;
+	border-bottom: 1px dotted #ccc;
+	border-top: 1px dotted #ccc;
+}
+.middle_picture_img1{
+	display:block;
+	background-image: url(../../img/Muse/main/middle_picture1/.middle_picture1.jpg);
+	opacity: 1;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 267px;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: all ease 4s;
+	-moz-transition: all ease 4s;
+	-o-transition: all ease 4s;
+	transition: all ease 4s;
+}
+.middle_picture_img2{
+	display:block;
+	background-image: url(../../img/Muse/main/middle_picture1/.middle_picture2.jpg);
+	opacity: 1;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 267px;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: all ease 4s;
+	-moz-transition: all ease 4s;
+	-o-transition: all ease 4s;
+	transition: all ease 4s;
+}
+.middle_picture:hover .middle_picture_img1{
+	background-position: 50% 0;
+	transform:scale(1.1);
+}
+.middle_picture:hover .middle_picture_img2{
+	background-position: 50% 0;
+	transform:scale(1.1);
+}
+
+
+
+

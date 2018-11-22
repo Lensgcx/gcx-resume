@@ -1,0 +1,309 @@
+
+/*----------------------自我介绍--------------------------*/
+
+.per_inf{
+	float: left;
+	margin: 15px 0 0 30px;
+}
+.per_inf th{
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #d9d9da;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+}
+.td_tlt{
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #d9d9da;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 16px;
+	text-align: center;
+}
+.td_inf{
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid #d9d9da;
+}
+th span{
+	color: #a4a4a5;
+	font-size: 10px;
+	font-family: gothic;
+}
+.per_inf_img{
+	float: left;
+	background: url(../../img/About_me/polaroids1.png)no-repeat;
+	background-size: 100% 120%;
+	background-position: 50% 50%;
+	width: 435px;
+	height: 435px;
+	margin: 15px 0 0 15px;
+}
+
+
+
+/*----------------------兴趣爱好--------------------------*/
+
+/*每一部分 的兴趣爱好*/
+.Hobby_part{
+	position: absolute;
+	width: 237px;
+	height: 435px;
+	margin: 20px 10px 0 0;
+	transform:perspective(800px) rotateY(-1deg) rotateX(-1deg);
+	z-index: 1;
+}
+.Hobby_1{
+	margin-left: 10px;
+	-webkit-transition: 2s all ease;
+	-moz-transition: 2s all ease;
+	-o-transition: 2s all ease;
+	transition: 2s all ease;
+}
+.Hobby_2{
+	margin-left: 257px;
+	-webkit-transition: 1s all ease;
+	-moz-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.Hobby_3{
+	margin-left: 504px;
+	-webkit-transition: 1s all ease;
+	-moz-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.Hobby_4{
+	margin-left: 751px;
+	-webkit-transition: 2s all ease;
+	-moz-transition: 2s all ease;
+	-o-transition: 2s all ease;
+	transition: 2s all ease;
+}
+
+/*内容整体*/
+.Hobby_part_Whole{
+	position: absolute;
+	width: 217px;
+	height: 410px;
+	padding: 15px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.95);
+	-webkit-box-shadow: 0 1px 20px 2px rgba(75,75,75,0.2);
+	box-shadow: 0 1px 20px 2px rgba(75,75,75,0.2);
+	border-radius: 30px;
+	z-index: 11;
+}
+/*背景遮罩层*/
+.Hobby_Mask{
+	position: absolute;
+	width: 0;
+	height: 415px;
+	margin: 12px 0 0 110px;
+	background: url(../../img/About_me/Hobby_Mask1.gif);
+	background-size: 60% 100%;
+	background-position:-22% 50%;
+	-moz-opacity:0.86;
+	-khtml-opacity:0.86;
+	opacity: 0.86;
+	z-index: 0;
+	-moz-box-shadow: 0 1px 5px 1px rgba(75,75,75,0.2);
+	-webkit-box-shadow: 0 1px 5px 1px rgba(75,75,75,0.2);
+	box-shadow: 0 1px 5px 1px rgba(75,75,75,0.2);
+	-webkit-transition: 2s all ease;
+	-moz-transition: 2s all ease;
+	-o-transition: 2s all ease;
+	transition: 2s all ease;
+}
+
+/*兴趣爱好   图片部分*/
+.Hobby_part_img{
+	float: left;
+	width: 100%;
+	height: 150px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.H_img1_fa{
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.H_img1{
+	background: url(../../img/About_me/H_img1.gif)no-repeat;
+	background-size: 120% 120%;
+	background-position: 50% 50%;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.H_img2{
+	background: url(../../img/About_me/H_img2.jpg)no-repeat;
+	background-size: 100% 130%;
+	background-position: 100% 50%;
+}
+.H_img3{
+	background: url(../../img/About_me/H_img3.jpg)no-repeat;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+}
+/*兴趣爱好4 图片部分*/
+.Hobby_part_img4{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.H_img4_1{
+	background: url(../../img/About_me/IMG_1.JPG)no-repeat;
+	background-size: 100% 170%;
+	background-position: 50% 60%;
+	width: 217px;
+	height: 150px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.H_img4_2{
+	background: url(../../img/About_me/IMG_2.JPG)no-repeat;
+	background-size: 100% 100%;
+	margin: 155px 0 0 60px;
+}
+.H_img4_3{
+	background: url(../../img/About_me/IMG_3.JPG)no-repeat;
+	background-size: 100% 110%;
+	background-position: 50% 40%;
+	margin: 132px 0 0 0;
+}
+.H_img4_4{
+	background: url(../../img/About_me/IMG_4.JPG)no-repeat;
+	background-size: 100% 110%;
+	background-position: 50% 40%;
+	margin: 130px 0 0 100px;
+}
+.H_img4_5{
+	background: url(../../img/About_me/IMG_5.JPG)no-repeat;
+	background-size: 100% 110%;
+	background-position: 50% 40%;
+	width: 80px;
+	height: 80px;
+	margin: 155px 0 0 140px;
+}
+/*兴趣爱好标题*/
+.Hobby_part_tlt{
+	float: left;
+	width: 100%;
+	height: 25px;
+	padding-top: 5px;
+}
+.Hobby_part_tlt h3{
+	width: 150px;
+	height: 25px;
+	text-indent: 1em;
+	border-bottom: 1px solid #a4a4a5;
+}
+/*兴趣爱好4  标题*/
+.Hobby_part_tlt4{
+	position: absolute;
+	width: 207px;
+	height: 25px;
+	margin-top: 210px;
+	padding-top: 5px;
+}
+.Hobby_part_tlt4 h3{
+	width: 150px;
+	height: 25px;
+	text-indent: 1em;
+	border-bottom: 1px solid #a4a4a5;
+}
+
+/*兴趣爱好   文字内容部分*/
+.Hobby_part_C{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	text-indent:1.5em;
+}
+.Hobby_part_C4{
+	position: absolute;
+	width: 217px;
+	height: 100px;
+	padding: 10px 0;
+	text-indent:1.5em;
+	margin-top: 240px;
+}
+.Hobby_part_C span{
+	font-size: 12px;
+	color: #333;
+	font-weight: lighter;
+}
+.Hobby_part_C4 span{
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333;
+}
+
+/*1到4  每块变化*/
+.Hobby_part:hover{
+	cursor: pointer;
+	transform:scale(1.14);
+	margin-left: 370px;
+	z-index: 999;
+}
+/*遮罩层变化*/
+.Hobby_part:hover .Hobby_Mask{
+	width: 1000px;
+	margin-left: -400px;
+}
+.Hobby_part:hover .Hobby_part_Whole{
+	-moz-box-shadow: 0 1px 15px 2px rgba(255,255,255,0.3);
+	-webkit-box-shadow:  0 1px 15px 2px rgba(255,255,255,0.3);
+	box-shadow: 0 1px 15px 2px rgba(255,255,255,0.3);
+
+
+}
+
+/*----------------------业余生活--------------------------*/
+
+.Amateur_life_img1{
+	position: absolute;
+	display: block;
+	width: 1000px;
+	height: 475px;
+	background: url(../../img/About_me/time2.gif);
+	background-position: 50% 50%;
+	background-size: 84% 110%;
+	opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

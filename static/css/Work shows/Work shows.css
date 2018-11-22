@@ -1,0 +1,646 @@
+/*-----------------------------PS 作品展示---------------------------*/
+/*背景图片*/
+.Work_show_back1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../../img/Work_shows/show_back02.jpg);
+	/*filter: alpha(opacity=80);*/
+	/*-moz-opacity:0.6;*/
+	/*-khtml-opacity:0.6;*/
+	opacity: 0.6;
+}
+.Work_show_back2{
+	position: absolute;
+	width: 519px;
+	height: 893px;
+	background: url(../../img/Work_shows/show_back05.png)no-repeat;
+	opacity: 0.86;
+	filter: alpha(opacity=86);
+	-o-transform:  rotate(42deg);
+	-webkit-transform:  rotate(42deg);
+	transform:  rotate(42deg);
+	margin: -150px 0 0 320px;
+}
+
+
+/*PS展示内容*/
+.PS_Work_shows{
+	position: absolute;
+	width: 665px;
+	height: 445px;
+	margin: 10px 0 0 100px;
+	padding: 10px 10px;
+	z-index:999;
+	/*background: seagreen;*/
+}
+/*PS展示内容文字说明*/
+.PS_Work_shows p{
+	float: left;
+	display: block;
+	width: 180px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	margin: 5px 0 0 20px;
+	z-index:999;
+	font-family: "微软雅黑 Light";
+	color: #dddddd;
+}
+/*右侧 文字说明*/
+.ps_text{
+	position: absolute;
+	width: 150px;
+	height: 60px;
+	font-family: "微软雅黑 Light";
+	font-size: 20px;
+	line-height: 30px;
+	z-index:30;
+	margin: 350px 0 0 700px;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 20px 2px rgba(75,75,75,0.2);
+	box-shadow: 0 1px 20px 2px rgba(75,75,75,0.2);
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background: rgba(255,255,255,0.16)
+}
+
+
+/*PS --------展示部分特效-----------*/
+.ps_part{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 180px;
+	height: 180px;
+	margin: 15px 0 5px 20px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: 1.8s all ease;
+	-moz-transition: 1.8s all ease;
+	-o-transition: 1.8s all ease;
+	transition: 1.8s all ease;
+	z-index:30;
+}
+.ps_part_img {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	top: 0;
+	left: 0;
+}
+/*各部分图片*/
+.PS_img1{
+	background: url(../../img/Work_shows/PS/动感海报.png)no-repeat;
+	background-size: 100% 120%;
+	background-position: 100% 45%;
+}
+.PS_img2{
+	background: url(../../img/Work_shows/PS/梅赛德斯奔驰/梅赛德斯奔驰首页.png)no-repeat;
+	background-size: 135% 110%;
+	background-position: 50% 10%;
+}
+.PS_img3{
+	background: url(../../img/Work_shows/PS/MIMO/6.MIMO%20美物.png)no-repeat;
+	background-size: 100% 126%;
+	background-position: 100% 60%;
+}
+.PS_img4{
+	background: url(../../img/Work_shows/PS/中秋月饼.png)no-repeat;
+	background-size: 100% 130%;
+	background-position: 100% 45%;
+}
+.PS_img5{
+	background: url(../../img/Work_shows/PS/电影海报.png)no-repeat;
+	background-size: 120% 110%;
+	background-position: 80% -2%;
+}
+.PS_img6{
+	background: url(../../img/Work_shows/PS/海南旅游网页设计.png)no-repeat;
+	background-size: 100% 280%;
+	background-position: 100% -0%;
+}
+
+/*遮罩层*/
+.ps_part .ovrly {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	width:100%;
+	height: 100%;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	left: 0;
+	top: 0;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.ps_part .buttons {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.fa-link{
+	background-image: url(../../img/Work_shows/link.svg);
+	background-size: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.fa-search{
+	background-image: url(../../img/Work_shows/search.svg);
+	background-size: 35%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.ps_part .buttons .fa {
+	background-color: rgba(256, 256, 256,1);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity: 0;
+	-webkit-transform: scale(5);
+	-moz-transform: scale(5);
+	-ms-transform: scale(5);
+	-o-transform: scale(5);
+	transform: scale(5);
+	position: relative;
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
+	-o-transition: -o-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+	color: rgba(50, 50, 50, 0.9);
+}
+.ps_part .buttons .fa-search {
+	-webkit-transition-delay: 0.1s;
+	-moz-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+.ps_part:hover{
+	transform:scale(1.5);
+	z-index: 999;
+	box-sizing: border-box;
+	border: 1px solid slateblue;
+}
+.ps_part:hover .ovrly {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	opacity: 1;
+}
+.ps_part:hover .buttons .fa {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+.buttons .fa:hover  {
+	box-sizing: border-box;
+	border: 3px solid slateblue;
+}
+
+/*-----------------------------AI 作品展示---------------------------*/
+
+/*展示内容*/
+.AI_Work_shows{
+	float: left;
+	width: 580px;
+	height: 430px;
+	margin: 20px 0 0 120px;
+	z-index: 20;
+}
+.AI_Work_shows p{
+	position: absolute;
+	width: 20px;
+	height: auto;
+	line-height: 20px;
+	font-size: 16px;
+	text-align: center;
+	font-family: "微软雅黑 Light";
+	color: #e3e3e3;
+	z-index:30;
+}
+/*-------- AI 展示部分特效-----------*/
+.AI_part{
+	position: absolute;
+	overflow: hidden;
+	z-index:30;
+	background: #eeeeee;
+	width: 250px;
+	height: 200px;
+	border: 2px solid white;
+	border-bottom: 10px solid white;
+	box-sizing: border-box;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 5px 10px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 5px 10px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 10px 3px 0 rgba(0, 0, 0, 0.3);
+	-webkit-transition: 1s all ease;
+	-moz-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.A_P1{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	margin: 0 0 0 40px;
+}
+.A_P2{
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	margin: 15px 0 0 280px;
+}
+.A_P3{
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	transform: rotate(2deg);
+	margin: 200px 0 0 40px;
+}
+.A_P4{
+	-webkit-transform:rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+	margin: 220px 0 0 280px;
+}
+.AI_part_img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*各部分图片*/
+.AI_img1{
+	background: url(../../img/Work_shows/AI/huaer.png)no-repeat;
+	background-size: 120% 130%;
+	background-position: 80% 45%;
+}
+.AI_img2{
+	background: url(../../img/Work_shows/AI/NIKE%20kobe%20三折页效果图1.png)no-repeat;
+	background-size: 135% 120%;
+	background-position: 60% 50%;
+}
+.AI_img3{
+	background:url(../../img/Work_shows/AI/一家人.png)no-repeat;
+	background-size: 150% 140%;
+	background-position: 0 50%;
+}
+.AI_img4{
+	background:url(../../img/Work_shows/AI/西藏博物馆VI.jpg)no-repeat;
+	background-size: 110% 900%;
+	background-position: 80% 0;
+}
+/*遮罩层*/
+.AI_part .ovrlyT {
+	background: rgba(0, 0, 0, 0.25);
+	height: 100%;
+	left: 100%;
+	position: absolute;
+	top: -100%;
+	width: 100%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.AI_part .ovrlyB {
+	background: rgba(0, 0, 0, 0.25);
+	height: 100%;
+	left: -100%;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.AI_part .buttons {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.AI_part .buttons .fa {
+	background-color: rgba(256, 256, 256,1);
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	color: rgba(50, 50, 50, 0.9);
+	display: inline-block;
+	margin: 0 1px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	-webkit-transition: all 0.2s 0.3s;
+	-moz-transition: all 0.2s 0.3s;
+	-o-transition: all 0.2s 0.3s;
+	transition: all 0.2s 0.3s;
+	opacity: 0;
+}
+.AI_part:hover .ovrlyT {
+	left: 0;
+	top: 0;
+}
+.AI_part:hover .ovrlyB {
+	left: 0;
+	top: 0;
+}
+.AI_part:hover .buttons .fa {
+	opacity: 1;
+}
+.AI_part:hover{
+	cursor: pointer;
+	transform:scale(1.3);
+	z-index: 999;
+	box-sizing: border-box;
+	border: 2px solid slateblue;
+	border-bottom: 10px solid slateblue;
+}
+
+
+
+/*-----------------------------Web 作品展示---------------------------*/
+
+
+.Web_Work_shows{
+	float: left;
+	position: relative;
+	width: 1000px;
+	height: 475px;
+	z-index: 20;
+}
+
+/*文字title*/
+.Web_tit_text{
+	position: relative;
+	font-size: 16px;
+	font-family: "微软雅黑 Light";
+	margin: 5px 0 0 80px;
+	color: #efefef;
+}
+/*展示内容*/
+#grid {
+	position: relative;
+	width: 860px;
+	padding: 10px 0 0 15px;
+	margin: 5px 0 0 60px;
+	height: 430px;
+}
+/*每部分内容*/
+#grid li {
+	float: left;
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 15px 15px 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
+
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	-webkit-transition: all 0.15s ease-in;
+	-moz-transition: all 0.15s ease-in;
+	-ms-transition: all 0.15s ease-in;
+	transition: all 0.15s ease-in;
+}
+/*图片*/
+.Web_img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.W_P1{
+	background: url(../../img/Work_shows/web/阿里.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 100% 100%;
+}
+.W_P2{
+	background: url(../../img/Work_shows/web/龙之谷.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 100% 100%;
+}
+.W_P3{
+	background: url(../../img/Work_shows/web/MYLA.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 100% 100%;
+}
+.W_P4{
+	background: url(../../img/Work_shows/web/CCB.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 100% 100%;
+}
+.W_P5{
+	background: url(../../img/Work_shows/web/中企动力.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 110% 100%;
+}
+.W_P6{
+	background: url(../../img/Work_shows/web/暮色.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 150% 100%;
+}
+.W_P7{
+	background: url(../../img/Work_shows/web/京东.png)no-repeat;
+	background-position: 50% 0%;
+	background-size: 100% 150%;
+}
+
+/*名字，链接部分*/
+#grid .details {
+	position: absolute;
+	padding: 10px;
+	bottom: 0;
+	border-top: 1px solid #fff;
+	width: 180px;
+	line-height: 20px;
+	background: rgba(255, 255, 255, 0.78);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	-webkit-border-radius:  0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px;
+	-webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.35);
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.35);
+}
+#grid .details h3 {
+	display:inline;
+	margin-bottom: 0px;
+	letter-spacing: -1px;
+	font-size: 16px;
+	font-family: "微软雅黑 Light", Arial, sans-serif;
+}
+
+#grid .details a.Look {
+	text-decoration: none;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	font-size: 10px;
+	color: #0090e2;
+	font-family: "微软雅黑 Light";
+	padding: 3px 5px;
+	background-color: rgba(0, 0, 0, 0.03);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.6);
+	-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.6);
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.6);
+	-webkit-transition: all 0.15s ease-in;
+}
+
+
+#information { z-index: 20; }
+#information li div h3 { background-color: #0090E2; border-radius: 5px 5px 0 0; color: #fff; font-size: 20px; font-weight: bold; margin: -30px -30px 20px; padding: 15px 30px; text-shadow: rgba(0, 0, 0, 0.4492); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); letter-spacing: -2px; }
+
+li[id]:target { width: 100%; height: 100%; opacity: 1; z-index: 10; position: fixed; overflow-x: hidden; /* overflow-y: scroll; */ margin-bottom: 25px; }
+li[id]:target::-webkit-scrollbar { width: 8px; background-color: rgba(0,0,0,0.6); position: relative; left: 0}
+li[id]:target::-webkit-scrollbar-thumb { -webkit-border-radius: 1ex; background-color: #6CF; }
+li[id]:target div { position: relative; margin: 0 auto; top: 15%; background: #fff; width: 600px; padding: 30px;
+	-webkit-box-shadow: 0 1px 8px #000;
+	-moz-box-shadow: 0 1px 8px #000;
+	box-shadow: 0 1px 8px #000;
+	-webkit-animation: lightbox 0.75s cubic-bezier(0,0,0,1);
+	-moz-animation: lightbox 0.5s cubic-bezier(0,0,0,1);
+}
+
+/*移入特效*/
+#grid.a.ig:hover { background: #0090e2; color: #fff; padding: 3px 10px; border-radius: 20px; }
+#grid .details a.Look:hover { background-color: #0090e2; color: #fff; }
+
+#grid li:hover {
+	cursor: pointer;
+	text-decoration: none;
+	z-index: 2;
+	-webkit-transform: scale(1.2) translateY(-40px);
+	-moz-transform: scale(1.2) translateY(-40px);
+	-ms-transform: scale(1.2) translateY(-40px);
+	transform: scale(1.2) translateY(-40px);
+	-webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+#grid li:nth-child(3n-2):hover {
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(-2.5deg);
+	-moz-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+	-ms-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+	transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+}
+
+#grid li:nth-child(3n):hover {
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(2.5deg);
+	-moz-transform: scale(1.2) translateY(-30px) rotate(2.5deg);
+	-ms-transform: scale(1.2) translateY(-30px) rotate(2.5deg);
+	transform: scale(1.2) translateY(-30px) rotate(2.5deg);
+}
+
+
+
+
+/*
+Style list items with an ID */
+li[id] { overflow: hidden; position: absolute; width: 0; height: 0; left: 0; top: 0; opacity: 0; background: rgba(0,0,0,.8);
+	-webkit-transition: opacity 0.2s cubic-bezier(0,0,0,1);
+	-moz-transition: opacity 0.2s cubic-bezier(0,0,0,1);
+	transition: opacity 0.2s cubic-bezier(0,0,0,1);
+}
+/*
+Lightbox close button */
+li[id] div a.close { background: #000; position: absolute; top: -10px; left: -10px; line-height: 0; color: #fff; text-align: center; font-weight: bold; border: 2px solid #fff; padding: 12px 9px 9px; border-radius: 30px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+	box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+}
+
+@-webkit-keyframes lightbox {
+	0% { -webkit-transform: scale(5) rotateY(-270deg); }
+	100% { -webkit-transform: scale(1) rotateY(0deg); }
+}
+
+@-moz-keyframes lightbox {
+	0% { -moz-transform: scale(5) /* rotateY(-270deg) */; }
+	100% { -moz-transform: scale(1) /* rotateY(0deg) */; }
+}
+.no-csstransforms #information li { overflow: visible; position: relative; margin: 0 auto; margin-bottom: 25px; background: #fff; width: 600px; padding: 30px; height: auto; list-style: none; }
+.no-csstransforms #information li div a.close { position: relative; background: transparent; padding: 0; color: #0090e2; font-size: 12px; font-weight: normal; left: 0; top: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

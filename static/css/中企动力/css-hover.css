@@ -1,0 +1,137 @@
+a:link {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+#top-header-Top2-span2:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec0915;
+}
+#top-bottom-bar-a span:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+.sub-nav ul li a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+	font-size: 16px;
+}
+#title-gw:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #000000;
+	font-size: 22px;
+}
+#title-sq:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #000000;
+	font-size: 22px;
+}
+#title-dh:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #000000;
+	font-size: 22px;
+}
+#title-dh2:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec0915;
+}
+#middle-part1-right-news1title:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+#middle-part1-right-news1content h3:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+#middle-part1-right-news1content p:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+#middle-part1-right-news1content ul li span:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+#middle-part1-right-news1content ul li a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+.middle-part1-right-news2-left-title h2:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec0915;
+}
+.middle-part1-right-news2-left li span:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+.middle-part1-right-news2-left li a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+.middle-part1-right-news2-right-title h2:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec0915;
+}
+.middle-part1-right-news2-right-content li div a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+.middle-part1-right-news2-right-content li div span:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #ec6500;
+}
+#middle-part2-title h2:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	color: #000000;
+	font-size: 22px;
+}
+#tel400:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 17px;
+	color: #ec0915;
+}
+

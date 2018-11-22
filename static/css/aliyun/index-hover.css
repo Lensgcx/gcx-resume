@@ -1,0 +1,100 @@
+a:link {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.layout_go:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(40,208,233,0.5);
+	transform: translateZ(80px);
+
+}
+.top_bar_u li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28d0e9;
+}
+.top_bar_menu_r #btn_zc:hover{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 15px;
+	color: #ffffff;
+
+}
+.top_bar_hover_menu_C a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(40,208,233,0.6);
+}
+.middle_market_content_part a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28d0e9;
+}
+.middle_product_content div li:hover{
+	transform: translateZ(300px);
+}
+.middle_data_market_content a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform: translateZ(200px) rotate(1deg) ;
+}
+.button_into:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform: translateZ(180px);
+}
+.middle_registered_button:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background: #ffffff;
+	color: #28d0e9;
+	font-size: 18px;
+	transform: translateZ(180px);
+}
+.bottom_part1_C li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28d0e9;
+}
+.bottom_part2_C_r a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28d0e9;
+}
+.bottom_part3_content_menu li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28d0e9;
+}
+
+.bottom_part4_content_part1 ul li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #28d0e9;
+}
+.bottom_part4_content_part2 a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	/*color: #28d0e9;*/
+	color: #ffffff;
+}
+.bottom_part4_content_part1_search:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+.side_bar:hover{
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.98;
+}
+.tab_FlipDot input{
+	text-decoration: none;
+	cursor: pointer;
+}

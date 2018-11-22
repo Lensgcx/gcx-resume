@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>汽车消费贷款计算器</title>
+	<link rel="stylesheet" href="../static/css/Calculator/Calculator.css">
+	<link rel="stylesheet" href="../static/css/Side_go_back/Side_go_back.css">
+	<script src="../static/js/jquery/jquery-3.1.0.js"></script>
+	<script src="../static/js/Calculator.js"></script>
+</head>
+<body>
+	<div class="Calculator_back"></div>
+	<div class="Calculator_back2"></div>
+	<!--消费贷款计算器-->
+	<div class="Calculator" style="left:50%;margin: 50px 0 0 -500px;width: 970px;">
+		<!--计算器标题-->
+		<div class="Calculator_tlt" style="margin-left: 10px">
+			<div class="Calculator_tlt_img"></div>
+			<h3 style="color: #ffffff">汽车消费贷款计算器</h3>
+			<h4 style="color: #bebebe">Consumer loan calculator</h4>
+			<h5 style="margin-right: 20px">All rights reserved,Created by GCX(高仓雄)</h5>
+		</div>
+		<!--计算器内容部分-->
+		<div class="Calculator_C" style="margin-left: 10px">
+			<!--注意事项及说明-->
+			<div class="ipt_Notes">
+				<h3>注意事项：</h3>
+				本计算器工具输入内容分为车价总额部分和贷款部分。车价总额(裸车价+上牌服务费+强制装潢费(可选)+第一年保险费总额)，
+				本计算工具总额计算按照实际购车流程来执行，计算总额为第一年购车出店实际款项，还贷期间的其他费用(保险，保养等)不算
+				在内。贷款部分的还款期数，以自然月为计算单位，一年期分为12个自然月。另：1、增加市面保本理财利率计算收益作为比较参考。
+				2、需填写百分数的地方填写百分比数值，如5%，填写"5"。
+			</div>
+			<!--贷款总额部分-->
+			<div class="ipt_content">
+				<div class="ipt_content_part">
+					<h4>裸车价</h4>
+					<input class="price C_part" value="" type="text" placeholder="请输入裸车价" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入裸车价'}"/>
+				</div>
+				<div class="ipt_content_part">
+					<h4>上牌及服务费</h4>
+					<input class="Service C_part" value="" type="text" placeholder="请输入上牌及服务费" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入上牌及服务费'}"/>
+				</div>
+				<div class="ipt_content_part" style="margin-right: 0">
+					<h4>强制性装潢或软包</h4>
+					<input class="Decoration C_part" value="" type="text" placeholder="请输入装潢或软包费用" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入装潢或软包费用'}"/>
+				</div>
+				<div class="ipt_content_part">
+					<h4>一年期保险费用</h4>
+					<input class="Insurance C_part" value="" type="text" placeholder="请输入保险费用" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入保险费用'}"/>
+				</div>
+				<div class="ipt_content_part">
+					<h4>第一年保险平均折扣(%)</h4>
+					<input class="discount C_part" value="" type="text" placeholder="请输入保险平均折扣" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入保险平均折扣'}"/>
+				</div>
+				<div class="ipt_content_part" style="margin-right: 0">
+					<h4>首付比例(%)</h4>
+					<input class="Proportion C_part" type="text" placeholder="请输入首付比例" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入首付比例'}"/>
+				</div>
+			</div>
+			<!--贷款信息部分-->
+			<div class="ipt_content Loan_inf">
+				<div class="ipt_content_part">
+					<h4>手续费(%)(贷款额*百分比)</h4>
+					<input class="Counter_Fee C_part" type="text" placeholder="请输入手续费" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入手续费'}"/>
+				</div>
+				<div class="ipt_content_part">
+					<h4>还款期数</h4>
+					<input class="periods C_part" type="text" placeholder="请输入还款期数" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入还款期数'}"/>
+				</div>
+				<div class="ipt_content_part" style="margin-right: 0">
+					<h4>免息期数</h4>
+					<input class="Free C_part" type="text" placeholder="请输入免息期数" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入免息期数'}"/>
+				</div>
+				<div class="ipt_content_part">
+					<h4>还款年化利率(%)</h4>
+					<input class="interest_rate C_part" type="text" placeholder="请输入还款年化利率" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入还款年化利率'}"/>
+				</div>
+				<div class="ipt_content_part">
+					<h4>保本理财利率(%)(比较)</h4>
+					<input class="Financial C_part" type="text" placeholder="请输入理财利率" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='请输入理财利率'}"/>
+				</div>
+				<div class="ipt_content_part" style="margin-right: 0">
+					<button class="btn_Calculation">计算结果</button>
+					<button class="btn_Zero">清零</button>
+				</div>
+
+			</div>
+		</div>
+		<!--计算器结果显示部分-->
+		<div class="Calculator_result" style="margin-right: 10px">
+			<div class="result_tlt">计算结果（元）：</div>
+			<!--车价部分,计算结果-->
+			<div class="result_content">
+				<h4 class="result_content_tlt">车价部分</h4>
+				<h6 class="result_content_tlt2">注:1.落地总价为提车总价+购置税。2.本计算购置税为2.0排量
+					计算，根据当地税收规定，若1.6以下排量购置税减半，请自行换算。</h6>
+				<div class="result_part">
+					<h3>提车总价:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part" style="margin-right: 0">
+					<h3>首年保险费用:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part">
+					<h3>购置税:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part" style="margin-right: 0">
+					<h3>落地总价:</h3>
+					<span class="num_val"></span>
+				</div>
+			</div>
+			<!--贷款部分,计算结果-->
+			<div class="result_content">
+				<h4 class="result_content_tlt">贷款部分</h4>
+				<h6 class="result_content_tlt2" style="height: 16px">注:1.手续费不包含还款金额中。2.还款为等额本息还款</h6>
+				<div class="result_part">
+					<h3>贷款金额:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part" style="margin-right: 0">
+					<h3>手续费:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part">
+					<h3>每期还款金额:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part" style="margin-right: 0">
+					<h3>本息+手续费:</h3>
+					<span class="num_val"></span>
+				</div>
+			</div>
+			<!--理财比较部分,计算结果-->
+			<div class="result_content">
+				<h4 class="result_content_tlt">理财比较</h4>
+				<h6 class="result_content_tlt2" style="height: 32px">
+					注:1.理财收益：贷款期间，贷款额可用于理财的收益累计.2.多出收益:理财收益相较于贷款购车，多出的收益
+				</h6>
+				<div class="result_part">
+					<h3>理财收益:</h3>
+					<span class="num_val"></span>
+				</div>
+				<div class="result_part" style="margin-right: 0">
+					<h3>多出收益:</h3>
+					<span class="num_val"></span>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!--换页 返回侧边栏-->
+	<div class="S_go_back" style="background: rgba(255,255,255,0.8);">
+		<a href="../Gcx-resume.html" class="S_go_back1" style="height: 72px;">
+			<div class="S_go_back_img1"></div>
+			<h3>简历首页</h3>
+		</a>
+		<a href="京东手机端.html" class="S_go_back2">
+			<div class="S_go_back_img2"></div>
+			<h3>上一内容:</h3>
+			<p>京东手机端</p>
+		</a>
+		<a href="我是一条贪吃蛇.html" class="S_go_back3">
+			<div class="S_go_back_img3"></div>
+			<h3>下一内容</h3>
+			<p>贪吃蛇</p>
+		</a>
+	</div>
+</body>
+
+</html>
+
+
+

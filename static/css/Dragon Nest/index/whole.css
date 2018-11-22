@@ -1,0 +1,121 @@
+/*--------------------  全局  ----------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	list-style: none;
+	font-weight: normal;
+	color: #606060;
+}
+.active{
+	display: block;
+}
+* img {
+	border: none;
+}
+* a {
+	text-decoration: none;
+}
+em{
+	display: block;
+	position: absolute;
+	background: url(../../../img/Dragon%20Nest/wrap/icon1.png) no-repeat;
+}
+strong{
+	display: block;
+	font-size: 18px;
+	color: #303030;
+	margin-right: 10px;
+	font-weight: bold;
+}
+span{
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+}
+i{
+	font-size: 12px;
+	color: #bcbcbd;
+	font-variant: small-caps;
+	font-style: normal;
+}
+p{
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+}
+ul{
+	list-style: none;
+}
+
+.center{
+	min-width: 1040px;
+	max-width: 1040px;
+	margin: 0 auto;
+	zoom: 1;
+}
+.red_text{
+	color: red;
+}
+.black_text{
+	color: #383541;
+}
+
+/*页面整体*/
+.page-Whole2{
+	width: 100%;
+	min-width: 1040px;
+	height: 2028px;
+	font: 14px/1.5 "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",arial,tahoma,sans-serif;
+	color: #606060;
+	background-color: #f1f1f1;
+	z-index: -9999;
+}
+/*------------------------------主要内容 居中内容---------------------*/
+.w{
+	position: relative;
+	height: 1844px;
+}
+
+/*-----------------------------------------页面除去顶部条  部分-------------------------------------------------------*/
+.wrap{
+	float: left;
+	width: 100%;
+	min-width: 1040px;
+	height: 1844px;
+	background: url(../../../img/Dragon%20Nest/wrap/index_body.jpg) no-repeat 50% 0;
+}
+
+/*---------------------页面区域标题----------------------*/
+.title{
+	height: 47px;
+	margin: 0 24px;
+}
+.tlt_center{
+	width: 100%;
+	height: 27px;
+	padding-top: 12px;
+	font-size: 18px;
+	color: #303030;
+}
+.tlt_center em{
+	background-position: 0 -90px;
+	width: 24px;
+	height: 22px;
+	margin: 1px 8px 0 0;
+	-webkit-transition: all ease 0.6s;
+	-moz-transition: all ease 0.6s;
+	-o-transition: all ease 0.6s;
+	transition: all ease 0.6s;
+}
+.tlt_center strong{
+	position: absolute;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 32px;
+}
+.tlt_center i{
+	position: absolute;
+	margin: 7px 0 0 112px;
+}

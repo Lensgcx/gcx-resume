@@ -1,0 +1,88 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	/*font-family: "Microsoft YaHei";*/
+	font-family: "gothic";
+	font-size: 12px;
+	color: #313134;
+}
+@font-face
+{
+	font-family: gothic-webfont;
+	src: url('../../fonts/gothic-webfont.woff'),
+	url('../../fonts/gothic-webfont.woff'); /* IE9+ */
+
+}
+@font-face
+{
+	font-family: gothic;
+	src: url('../../fonts/gothic.woff'),
+	url('../../fonts/gothic.woff'); /* IE9+ */
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: "gothic";
+}
+* img {
+	border: none;
+}
+* a {
+	text-decoration: none;
+}
+span{
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+}
+i{
+	font-size: 12px;
+	color: #bcbcbd;
+	font-variant: small-caps;
+	font-style: normal;
+}
+h4{
+	font-family: "gothic";
+	font-size: 11px;
+	color: #313134;
+	text-transform: uppercase;
+	padding-bottom: 19px;
+}
+
+p{
+	font-style: normal;
+	text-decoration: none;
+	font-weight: normal;
+}
+ul,li{
+	list-style: none;
+}
+
+body{
+	z-index: -9999;
+}
+/*页面整体*/
+.La_Whole{
+	width: 100%;
+	min-width: 980px;
+	height: 1875px;
+	background: #EFEFEF;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

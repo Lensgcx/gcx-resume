@@ -1,0 +1,111 @@
+
+/*-----------------------------------侧边栏----------------------------------------*/
+.S_go_back{
+	position: fixed;
+	width: 80px;
+	height: 270px;
+	left: 100%;
+	top: 8%;
+	margin-left: -84px;
+	z-index: 999;
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*background: aqua;*/
+}
+.S_go_back a{
+	float: left;
+	width: 80px;
+	height: 92px;
+	-webkit-transition: 1.8s all ease;
+	-moz-transition: 1s all ease;
+	-o-transition: 1s all ease;
+	transition: 1s all ease;
+}
+.S_go_back_img1{
+	float: left;
+	display: block;
+	background: url(../../img/S_go_back_img/S_go_back_img1.png);
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+
+}
+.S_go_back_img2{
+	float: left;
+	display: block;
+	background: url(../../img/S_go_back_img/S_go_back_img2.png);
+	background-size: 300% 300%;
+	background-position: 50% 50%;
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+}
+.S_go_back_img3{
+	float: left;
+	display: block;
+	background: url(../../img/S_go_back_img/S_go_back_img3.png);
+	background-size: 300% 300%;
+	background-position: 50% 50%;
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+}
+
+
+.S_go_back h3{
+	float: left;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	width: 80px;
+	height: 20px;
+	margin: 0;
+	color: #444;
+	line-height: 20px;
+	font-weight: 600;
+
+}
+.S_go_back p{
+	float: left;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	width: 80px;
+	height: 16px;
+	line-height: 20px;
+	color: #777;
+	font-weight: 600;
+
+}
+
+.S_go_back1:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.1);
+}
+.S_go_back2:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.1);
+}
+.S_go_back3:hover{
+	text-decoration: none;
+	cursor: pointer;
+	transform:scale(1.1);
+}
+/*.S_go_back1:hover p{*/
+	/*color: #0c0c19;*/
+	/*font-weight: 400;*/
+/*}*/
+/*.S_go_back2:hover p{*/
+	/*color: #0c0c19;*/
+	/*font-weight: 400;*/
+/*}*/
+/*.S_go_back3:hover p{*/
+	/*color: #0c0c19;*/
+	 /*font-weight: 400;*/
+ /*}*/

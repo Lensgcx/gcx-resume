@@ -1,0 +1,130 @@
+/*-------------------------------------学习履历 ----------------------------------- */
+/*------------教育履历 ------------------ */
+.Study_text{
+	position: absolute;
+	width: 980px;
+	height: 475px;
+	padding: 10px 10px 10px 10px;
+}
+.Study_text_C{
+	word-wrap: break-word;
+	-webkit-box-shadow:   0 1px 8px 1px rgba(75,75,75,0.1);
+	box-shadow: 0 1px 1px 1px rgba(75,75,75,0.1);
+}
+.S_H{
+	position: absolute;
+	width: 280px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	margin: 40px 0 0 640px;
+	text-align: left;
+	text-indent: 0.3em;
+}
+.S_H strong{
+	display: inline;
+	color:#333 ;
+	font-size: 16px;
+}
+.Study_text_img {
+	position: absolute;
+	display: block;
+}
+.S_img1{
+	background: url(../../img/Study/xuexingwang.png);
+	width: 618px;
+	height: 358px;
+	margin: 10px 0 0 10px;
+	-moz-opacity:0.6;
+	-khtml-opacity:0.6;
+	opacity: 0.6;
+}
+.S_img2{
+	background: url(../../img/Study/study1.png);
+	background-size: 100% 150%;
+	background-position: 100% 75%;
+	width: 340px;
+	height: 190px;
+	margin: 275px 0 0 600px;
+	-moz-opacity:0.86;
+	-khtml-opacity:0.86;
+	opacity: 0.86;
+}
+
+/*------------在校实践 ------------ */
+.S_P_img1{
+	background: url(../../img/Study/.S_P_back.png);
+	width: 100%;
+	height: 100%;
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	opacity: 0.3;
+
+}
+.S_P{
+	float: left;
+	position: relative;
+	width: 970px;
+	font-size: 16px;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 5px 0;
+	text-align: left;
+}
+.text_T{
+	font-size: 18px;
+}
+.S_P strong{
+	display: inline;
+	color: #7d77cd;
+	font-size: 18px;
+	margin-right: 10px
+}
+
+/*------------培训经历 ------------ */
+.T_img1{
+	background: url(../../img/Study/back2.png);
+	background-size: 100% 100%;
+	width: 210px;
+	height: 250px;
+	margin:-40px 0 0 740px;
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity: 0.5;
+}
+.T_img2{
+	background: url(../../img/Study/.S_P_back.png);
+	width: 100%;
+	height: 100%;
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	opacity: 0.3;
+}
+
+.T_P{
+	float: left;
+	position: relative;
+	width: 970px;
+	font-size: 16px;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 0 5px 0;
+}
+.T_P strong{
+	display: inline;
+	color: #7d77cd;
+	font-size: 18px;
+	margin-right: 5px
+}
+.T_P.text_T{
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+

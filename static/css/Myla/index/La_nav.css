@@ -1,0 +1,199 @@
+/*导航栏*/
+.La_nav{
+	float: left;
+	width: 100%;
+	min-width: 980px;
+	height: 61px;
+	padding-top: 19px;
+	background: #EFEFEF;
+}
+/*导航栏居中部分*/
+.La_nav-container{
+	width: 980px;
+	min-width: 980px;
+	height: 61px;
+	margin: 0 auto;
+}
+/*导航栏左边  logo */
+.La_nav-container a{
+	float: left;
+	position: relative;
+	display: block;
+	width: 202px;
+	height: 61px;
+}
+.La_nav-container a img{
+	width: 184px;
+	height: 39px;
+}
+/*导航栏部分*/
+.La_top_menu{
+	float: left;
+	position: relative;
+	height: 61px;
+	z-index: 999;
+}
+.La_top_menu_item{
+	float: left;
+	padding: 14px 14px 0 14px;
+	height: 47px;
+	z-index: 999;
+}
+.La_top_menu_item a{
+	width: 100%;
+	height: 47px;
+	text-align: center;
+}
+.La_top_menu_item a span{
+	height: 19px;
+	padding-bottom: 10px;
+	font-family: "gothic";
+	font-weight: 300;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #313134;
+}
+
+
+/*导航栏右边  搜索*/
+.La_Search{
+	float: right;
+	position: relative;
+	width: 156px;
+	height: 31px;
+	padding: 5px 0 11px;
+}
+.La_Search input{
+	display: block;
+	width: 118px;
+	height: 27px;
+	padding: 0 22px 0 12px;
+	font-size: 12px;
+	border: 2px solid #D9D9D9;
+	color: #313134;
+	background-color: transparent;
+	border-radius: 3px;
+	font-family: 'gothic';
+	outline:none;
+	-webkit-transition: all ease-in-out .3s;
+	-moz-transition: all ease-in-out .3s;
+	-o-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+}
+.La_Search input:focus{
+	background: #ffffff;
+}
+.La_Search input:hover{
+	background: #ffffff;
+}
+.La_Search div{
+	position: absolute;
+	background: url(../../../img/Myla/index/La_nav/new-search-icon.png) no-repeat scroll;
+	height: 13px;
+	width: 13px;
+	right: 7px;
+	top: 15px;
+	border: 0;
+	cursor: pointer;
+}
+
+
+/*导航栏下拉菜单*/
+.sub_menu_wrapper{
+	position: absolute;
+	overflow: hidden;
+	opacity: 1;
+	width: 100%;
+	min-width: 980px;
+	background-color: rgba(239,239,239,0.92);
+	height: 0;
+	left: 0;
+	top: 119px;
+	z-index: 999;
+	-webkit-box-shadow:  0 6px 7px 0.2px rgba(75,75,75,0.2);
+	box-shadow: 0 6px 7px 0.2px rgba(75,75,75,0.2);
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-ms-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+}
+/*导航栏下拉菜单 居中内容*/
+.sub_menu{
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 980px;
+	width: 980px;
+	height: 100%;
+	background-color: transparent;
+	padding: 0;
+}
+/*导航栏下拉菜单 图片*/
+.category-image{
+	float: left;
+	overflow: hidden;
+	margin-bottom: 0;
+	width: 374px;
+	height: 229px;
+	margin-top: 1px;
+}
+.category-image a{
+	display: block;
+	padding: 0;
+	margin: 0 29px 0 0;
+	width: 345px;
+	height: 229px;
+}
+.category-image_1{
+	background: url(../../../img/Myla/index/La_nav/menu_image_1.jpg) no-repeat;
+}
+.category-image_2{
+	background: url(../../../img/Myla/index/La_nav/menu_image_2.jpg) no-repeat;
+}
+.category-image_3{
+	background: url(../../../img/Myla/index/La_nav/menu_image_3.jpg) no-repeat;
+}
+.category-image_4{
+	background: url(../../../img/Myla/index/La_nav/menu_image_4.jpg) no-repeat;
+}
+/*导航栏下拉菜单 文字内容*/
+.category-items-block{
+	float: left;
+	overflow: hidden;
+	padding: 24px 0;
+}
+.category-description{
+	float: left;
+	display: block;
+	min-height: 180px;
+	max-width: 253px;
+	border-right: 1px solid #313134;
+	margin-right: 42px;
+	padding-right: 42px;
+	color: #313134;
+	font-size: 13px !important;
+	line-height: 16px;
+}
+.category-items-block ul{
+	float: left;
+	display: block;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+.category-items-block ul li{
+	float: left;
+	width: 100%;
+	margin-bottom: 8px;
+}
+.category-items-block ul li a{
+	display: block;
+	padding: 0;
+	width: 100%;
+	font-size: 13px !important;
+	color: #313134;
+	font-weight: normal !important;
+}
+.category-items-block ul li a:hover{
+	color: #ecb3cc;
+}

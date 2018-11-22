@@ -1,0 +1,88 @@
+/*页面顶部*/
+.La_head{
+	float: left;
+	display: block;
+	width: 100%;
+	min-width: 980px;
+	height: 41px;
+	background-color: #313134;
+}
+/*页面顶部居中部分*/
+.La_cart{
+	width: 980px;
+	min-width: 980px;
+	height: 41px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*页面顶部左边*/
+.La_cart_panel{
+	float: left;
+	padding: 12px 0 0;
+	width: 186px;
+	height: 14px;
+}
+.La_cart_panel a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	-webkit-transition: all ease-in-out .3s;
+	-moz-transition: all ease-in-out .3s;
+	-o-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+}
+.La_cart_panel a:hover{
+	color: #ff8dbc;
+}
+/*页面顶部右边*/
+.La_cart_pane2{
+	float: right;
+	padding: 12px 0 0;
+}
+.La_cart_pane2 li{
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.La_cart_pane2 li a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	-webkit-transition: all ease-in-out .3s;
+	-moz-transition: all ease-in-out .3s;
+	-o-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+}
+.Register:hover{
+	color: #ff8dbc;
+}
+.My_Account:hover{
+	color: #ff8dbc;
+}
+.La_cart_pane2 li a b{
+	font-family: 'Century Gothic Bold';
+	font-weight: bold;
+	color: #ff8dbc;
+	font-size: 14px;
+	-webkit-transition: all ease-in-out .3s;
+	-moz-transition: all ease-in-out .3s;
+	-o-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s;
+}
+.La_cart_pane2 li a b:hover{
+	color: #ff38a5;
+	transform: translateZ(600px);
+}
+.cur {
+	margin-left: 2px;
+	padding: 3px 6px;
+	border: 1px solid #808285;
+	color: #808285 !important;
+}
+.active{
+	border: 1px solid #DDDCDC;
+	color: #DDDCDC !important;
+}
+.cur:hover {
+	color: #DDDCDC !important;
+}

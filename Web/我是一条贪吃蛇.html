@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我是一条贪吃蛇.I am a hungry snake——by 高仓雄</title>
+	<link rel="stylesheet" href="../static/css/hungry_snake/hungry_snake.css">
+	<link rel="stylesheet" href="../static/css/Side_go_back/Side_go_back.css">
+
+	<script src="../static/js/jquery/jquery-3.1.0.js"></script>
+	<script src="../static/js/web_hungry_snake.js"></script>
+
+</head>
+<body>
+	<div id="ALL_Whole">
+		<div class="snake_Whole" style="margin: 100px 0 0 40px">
+			<div class="snake_content">
+				<!--游戏标题-->
+				<div class="board_tlt">
+					<div class="board_tlt_img"></div>
+					<h1>我是一条贪吃蛇</h1>
+					<h4>I am a hungry snake</h4>
+					<h4 style="right: 15px;">All rights reserve，create by Gcx(高仓雄)</h4>
+				</div>
+				<!--游戏进行界面-->
+				<div class="board">
+					<p class="over_text game_over1 ">撞墙啦！</p>
+					<p class="over_text game_over2 ">我去( (╯﹏╰).！)</p>
+					<a class="snake_img snake_back back1" href=""></a>
+					<!--左边部分-->
+					<div class="action_part">
+						<!--按钮-->
+						<div class="action_part_btn">
+							<div class="snake_img snake_start2"></div>
+							<div class="snake_img snake_stop"></div>
+						</div>
+						<a class="snake_img snake_back back2" href=""></a>
+						<div class="Score">
+							<h3 class="Score_tlt">Score:</h3>
+							<span id="Score"></span>
+						</div>
+						<div class="snake_img action_part_img"></div>
+					</div>
+				</div>
+				<!--游戏封面-->
+				<div class="cover snake_img">
+					<p class="cover_tlt C_t1">我是一条</p>
+					<p class="cover_tlt C_t2">贪吃蛇</p>
+					<div class="snake_img snake_start1"></div>
+					<div class="snake_img snake_Question"></div>
+					<div class="snake_option">
+						<h4 style="color: #105a10">游戏难度</h4>
+						<label style="color: #ff62ce"><input class="speed" name="speed" type="radio" value="200" />小试牛刀 </label><br>
+						<label style="color: #ff5092"><input class="speed" name="speed" type="radio" value="100" />进阶模式</label><br>
+						<label style="color: #ff2e49"><input class="speed" name="speed" type="radio" value="50" />恶魔模式 </label>
+
+						<h4 style="color: #1a5e4b">皮肤</h4>
+						<label style="color: #6A5ACD"><input class="color" name="color" type="radio" value="#6A5ACD" />紫蛇</label>
+						<label style="color: #6aa3ff"><input class="color" name="color" type="radio" value="#6aa3ff" />蓝蛇</label>
+						<label style="color: #5bff4c"><input class="color" name="color" type="radio" value="#5bff4c" />绿蛇</label>
+					</div>
+				</div>
+				<!--规则-->
+				<div class="Question">
+					<div class="snake_text">
+						<h2 class="snake_text_tlt">
+							规则和方法
+							<span>(虽然你们都知道，但还是啰嗦一下)</span>
+						</h2>
+						<h3 class="snake_text_tlt2">1、操作方法</h3>
+						<p>通过操作键盘上的四个方向键来控制蛇身的移动，每次蛇头吃一个小食物，
+							蛇身会增加一截，可选择游戏难度，蛇的移动速度不一样哦。看谁吃的多，活的久，
+							，分数高，和你的小伙伴比一比吧</p>
+						<h3 class="snake_text_tlt2">2、游戏规则</h3>
+						<p>在游戏中,贪吃蛇移动中碰到墙壁,则宣告游戏结束。</p>
+						<h3 class="snake_text_tlt2">3、果实的出现</h3>
+						<p>在游戏中,果实的出现位置,采用随机方式。前一个果实被吃掉时,
+							屏幕上会随机出现另一个果实。且果实不与蛇身重合。</p>
+					</div>
+					<div class="snake_img snake_back2"></div>
+					<div class="snake_img snake_gif"></div>
+				</div>
+			</div>
+		</div>
+		<div class="BGM BGM1">
+			<audio id="audio1" loop="loop" preload="auto" autoplay="autoplay" src="../static/music/BGM1.mp3"></audio>
+		</div>
+		<div class="BGM BGM2">
+			<audio id="audio2" loop="loop" preload="auto" src="../static/music/BGM2.mp3"></audio>
+		</div>
+		<div class="BGM BGM3">
+			<audio id="audio3"  preload="auto" src="../static/music/BGM3.mp3"></audio>
+		</div>
+	</div>
+	<!--换页 返回侧边栏-->
+	<div class="S_go_back" style="background: rgba(255,255,255,0.8)">
+		<a href="../Gcx-resume.html" class="S_go_back1" style="height: 72px;">
+			<div class="S_go_back_img1"></div>
+			<h3>简历首页</h3>
+		</a>
+		<a href="Calculator.html" class="S_go_back2">
+			<div class="S_go_back_img2"></div>
+			<h3>上一内容:</h3>
+			<p>贷款计算器</p>
+		</a>
+		<a href="我是一条贪吃蛇.html" class="S_go_back3">
+			<div class="S_go_back_img3"></div>
+			<h3>下一内容</h3>
+			<p>贪吃蛇</p>
+		</a>
+	</div>
+</body>
+</html>

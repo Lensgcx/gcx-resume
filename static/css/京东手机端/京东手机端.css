@@ -1,0 +1,732 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    overflow-x:hidden;
+}
+#back{
+    position: relative;
+    margin: 0 auto;
+    background: white;
+    width: 320px;
+    height: 4660px;
+}
+/*头部*/
+#head-part{
+    background:aqua;
+    width: 100%;
+    height: 160px;
+}
+#head-part-bar{
+    position: absolute;
+    /*background:-webkit-gradient(linear, 2 10,1 bottom, from(black), to(#cccccc));*/
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+}
+#head-part-bar a img{
+    float: left;
+    width: 56px;
+    height: 21px;
+    margin: 8px 0 0 10px;
+}
+#head-part-bar-kj{
+    float: left;
+    width: 195px;
+    height: 30px;
+    margin: 5px 0 0 5px;
+    background: white;
+    border-radius: 15px;
+}
+#head-part-bar-input{
+    position: absolute;
+    font-size: 12px;
+    color: #ababab;
+    outline:none;
+    width: 150px;
+    height: 20px;
+    border: none;
+    margin: 5px 0 0 35px;
+}
+#head-part-bar-kj div img{
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    margin: 5px 0 0 12px;
+}
+#head-part-bar-kj span{
+    float: left;
+    color: white;
+    font-family: 方正兰亭超细黑简体;
+    width: 40px;
+    font-size: 16px;
+    margin: 6px 0 0 205px;
+}
+/*第一个轮播图*/
+#tab{
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    overflow: hidden;
+}
+.FlipDot{
+    position: absolute;
+    margin: 140px 0 0 110px;
+    left: 0;
+    z-index: 99;
+}
+.FlipDot input{
+    float: left;
+    border: none;
+    outline:none;
+    background: white;
+    opacity:0.7;
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    margin-left: 5px;
+}
+.Backpicture{
+    width: 2560px;
+    position: relative;
+    left: 0;
+}
+.Backpicture div{
+    float: left;
+    width: 320px;
+    height: 160px;
+    /*background: hotpink;*/
+}
+.direction{
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 80px;
+    opacity:0.05;
+    color: white;
+    background: yellow;
+}
+.direction span:last-Child{
+    margin-left: 290px;
+}
+/*中间第一部分*/
+#middle-part1{
+    background-color: white;
+    width: 320px;
+    height: 145px;
+}
+#middle-part1 a{
+    float: left;
+    width: 80px;
+    height: 58px;
+    background: white;
+    margin-top: 10px;
+}
+#middle-part1 img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+
+}
+#middle-part1 a span{
+    position: absolute;
+    color: #797979;
+    font-size: 10px;
+    margin: 0 auto;
+    margin-top: 44px
+}
+/*中间第二部分*/
+#middle-part2{
+    overflow: hidden;
+    width: 320px;
+    height: 140px;
+    background: white;
+}
+#middle-part2-floor-title{
+    width: 100%;
+    height: 35px;
+    background-color: white;
+}
+#middle-part2-floor-title a{
+    float: left;
+    display: block;
+}
+#middle-part2-floor-title a img{
+    height: 22px;
+    width: 20px;
+    margin: 4px 0 0 5px;
+}
+
+#middle-part2-floor-title a span{
+    font-size: 14px;
+    height: 35px;
+    width: 65px;
+    line-height: 35px;
+    margin:0 4px 0 4px;
+    color: #f46868;
+}
+#middle-part2-floor-title  span{
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    width: 10px;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+}
+#middle-part2-floor-title input{
+    float: left;
+    width: 18px;
+    height: 20px;
+    background: black;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border: none;
+    margin: 8px 1px;
+}
+#middle-part2-floor-title a div span{
+    float: left;
+    font-size: 12px;
+    height: 35px;
+    width: 60px;
+    line-height: 35px;
+    color: #8e8e8e;
+    margin-left: 78px;
+}
+/*第二个滚动播放图*/
+.tab2{
+    float: left;
+    overflow: hidden;
+}
+.Backpicture2{
+    position: relative;
+    width:2160px;
+    height: 110px;
+    left: 0;
+    background: white;
+    animation: test 40s ease infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes test {
+    0% { left: 0;  }
+    10% { left: -120px;}
+    20% {left: -240px;}
+    30% {left: -360px;}
+    40% {left: -480px;}
+    50% {left: -600px;}
+    60% {left: -720px;}
+    70% {left: -840px;}
+    80% { left: -960px;}
+    90% {left: -1080px;}
+    100% {left: -1200px;}
+}
+.Backpicture2 div{
+    float: left;
+    width: 90px;
+    height: 100px;
+}
+.Backpicture2 div a{
+    position: absolute;
+    box-sizing:border-box;
+    border-right: 1px solid #f2f2f2;
+    width: 90px;
+    height: 68px;
+}
+.Backpicture2 div img{
+    position: absolute;
+    margin: 0 11px;
+}
+.Backpicture2 div span {
+    position: absolute;
+}
+/*中间第三部分*/
+#middle-part3{
+    width: 320px;
+    height: 420px;
+    /*background: red;*/
+}
+#middle-part3 a{
+    float: left;
+}
+#middle-part3 a img{
+    float: left;
+    display: block;
+    box-sizing:border-box;
+    border: 1px solid #f6f6f6;
+}
+#tab3-back{
+    float: left;
+    width: 320px;
+    height: 92px;
+    background: #f5f5f5;
+}
+/*第三个轮播图*/
+#tab3{
+    width: 320px;
+    height: 92px;
+    overflow: hidden;
+}
+.Backpicture3{
+    position: relative;
+    left: 0;
+    width: 640px;
+    height: 76px;
+}
+.Backpicture3 a{
+    width: 304px;
+    height: 76px;
+    margin: 8px 8px;
+}
+.Backpicture3 a img{
+    float: left;
+    width: 304px;
+    height: 76px;
+}
+.FlipDot3{
+    position: absolute;
+    margin: 0 0 0 145px;
+    left: 0;
+    z-index: 99;
+}
+.FlipDot3 input{
+    float: left;
+    border: none;
+    outline:none;
+    background: white;
+    opacity:0.7;
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    margin-left: 5px;
+}
+.direction3{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin: -40px 0 0 5px;
+    opacity:0.3;
+}
+.direction3 span:last-Child{
+    margin-left: 260px;
+}
+/*中间第四部分*/
+#middle-part4{
+    width: 320px;
+    height: 280px;
+    /*background: yellow;*/
+}
+#middle-part4-floor-title{
+    display: block;
+    width: 320px;
+    height: 35px;
+}
+#middle-part4-floor-title a{
+    text-decoration: none;
+    display: block;
+    width: 320px;
+    height: 35px;
+    background: white;
+}
+#middle-part4-floor-title a span{
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #f46868;
+}
+#middle-part4 a{
+    float: left;
+}
+#middle-part4 a img{
+    margin: 0;
+    float: left;
+    display: block;
+    box-sizing:border-box;
+    border: 1px solid #f6f6f6;
+}
+/*第四个轮播图*/
+#tab4-back{
+    float: left;
+    width: 320px;
+    height: 92px;
+    background: #f5f5f5;
+}
+#tab4{
+    width: 320px;
+    height: 92px;
+    overflow: hidden;
+}
+.Backpicture4{
+    position: relative;
+    left: 0;
+    width: 640px;
+    height: 76px;
+}
+.Backpicture4 a{
+    width: 304px;
+    height: 76px;
+    margin: 8px 8px;
+}
+.Backpicture4 a img{
+    float: left;
+    width: 304px;
+    height: 76px;
+}
+.FlipDot4{
+    position: absolute;
+    margin: 0 0 0 145px;
+    left: 0;
+    z-index: 99;
+}
+.FlipDot4 input{
+    float: left;
+    border: none;
+    outline:none;
+    background: white;
+    opacity:0.7;
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    margin-left: 5px;
+}
+.direction4{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin: -40px 0 0 5px;
+    opacity:0.3;
+}
+.direction4 span:last-Child{
+    margin-left: 260px;
+}
+/*中间第五部分*/
+#middle-part5{
+    width: 320px;
+    height: 565px;
+    background: white;
+}
+#middle-part5-floor-title{
+    display: block;
+    width: 320px;
+    height: 35px;
+}
+#middle-part5-floor-title a{
+    text-decoration: none;
+    display: block;
+    width: 320px;
+    height: 35px;
+    background: white;
+}
+#middle-part5-floor-title a span{
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #f46868;
+}
+#middle-part5 a{
+    float: left;
+}
+#middle-part5 a img{
+    margin: 0;
+    float: left;
+    display: block;
+    box-sizing:border-box;
+    border: 1px solid #f6f6f6;
+}
+#tab5-back{
+    float: left;
+    width: 320px;
+    height: 92px;
+    background: #f5f5f5;
+}
+/*第五个轮播图*/
+#tab5{
+    width: 320px;
+    height: 92px;
+    overflow: hidden;
+}
+.Backpicture5{
+    position: relative;
+    left: 0;
+    width: 640px;
+    height: 76px;
+}
+.Backpicture5 a{
+    width: 304px;
+    height: 76px;
+    margin: 8px 8px;
+}
+.Backpicture5 a img{
+    float: left;
+    width: 304px;
+    height: 76px;
+}
+.FlipDot5{
+    position: absolute;
+    margin: 0 0 0 145px;
+    left: 0;
+    z-index: 99;
+}
+.FlipDot5 input{
+    float: left;
+    border: none;
+    outline:none;
+    background: white;
+    opacity:0.7;
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    margin-left: 5px;
+}
+.direction5{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin: -40px 0 0 5px;
+    opacity:0.3;
+}
+.direction5 span:last-Child{
+    margin-left: 260px;
+}
+/*中间第六部分*/
+#middle-part6{
+    width: 320px;
+    height: 322px;
+    background: white;
+}
+#middle-part6-floor-title{
+    display: block;
+    width: 320px;
+    height: 35px;
+}
+#middle-part6-floor-title a{
+    text-decoration: none;
+    display: block;
+    width: 320px;
+    height: 35px;
+    background: white;
+}
+#middle-part6-floor-title a span{
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #f46868;
+}
+#middle-part6-pictureback{
+    background: salmon;
+    width: 304px;
+    height: 166px;
+    margin-left: 8px;
+}
+#middle-part6 a{
+    float: left;
+}
+#middle-part6 a img{
+    margin: 0;
+    float: left;
+    display: block;
+    box-sizing:border-box;
+    border: 1px solid #f6f6f6;
+}
+#tab6-back{
+    width: 320px;
+    height: 120px;
+    background: #f5f5f5;
+}
+#tab6-back a {
+    margin-top: 5px;
+}
+/*中间第七部分，瀑布流+最后的底部*/
+#middle-part7{
+    width: 320px;
+    height: 1000px;
+}
+#middle-part7-floor-title{
+    display: block;
+    width: 320px;
+    height: 35px;
+}
+#middle-part7-floor-title a span{
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #8e8e8e;
+}
+#middle-part7-floor-title div{
+    float: left;
+    width: 120px;
+    height: 35px;
+    margin-left: 132px;
+}
+#middle-part7-floor-title div a img{
+    float: left;
+    height: 17px;
+    margin: 8px 0;
+}
+#middle-part7-floor-title div a span{
+    float: left;
+    height: 35px;
+    font-size: 14px;
+    color: #f15353;
+}
+/*瀑布流*/
+#Waterfallflow{
+    width: 320px;
+    background-color: darkgray;
+}
+#Waterfallflow ul{
+    float: left;
+    width: 160px;
+    background: white;
+}
+
+/*底部部分*/
+#bottom-part{
+    float: left;
+    width: 320px;
+    background: #f8f8f8;
+}
+#bottom-part1 div{
+    float: left;
+    height: 30px;
+    width: 320px;
+    background: #f3f5f7;
+    border-bottom: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+}
+#bottom-part1 div a {
+    margin: 0 95px;
+}
+#bottom-part1 div a span{
+    font-size: 16px;
+    color:#747575 ;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#bottom-part1 ul {
+    float: left;
+    width: 320px;
+    height: 53px;
+    background:#f8f8f8;
+    border-bottom: 1px solid #d7d7d7;
+}
+#bottom-part1 ul li{
+    float: left;
+    height: 17px;
+    margin-top: 18px;
+    background:#f8f8f8;
+    box-sizing:border-box;
+    border-right: 1px solid #d7d7d7;
+}
+#bottom-part1 ul li a{
+    height: 17px;
+    font-size: 16px;
+    line-height: 17px;
+    color: #848689;
+    background:#f8f8f8;
+    text-align: center;
+    text-decoration: none;
+}
+#bottom-part2 li{
+    float: left;
+    width: 107px;
+    height: 69px;
+    background:#f8f8f8;
+    box-sizing:border-box;
+    border-bottom: 1px solid #d7d7d7;
+}
+#bottom-part2  li a{
+    text-decoration: none;
+    float: left;
+    width: 107px;
+    height:60px;
+    margin:5px 0;
+    background:#f8f8f8;
+}
+#bottom-part2  li a img{
+    width: 36px;
+    height:38px;
+    margin: 0 40px;
+}
+#bottom-part2  li a span{
+    display: block;
+    color: #848689;
+    font-size: 14px;
+    height:16px;
+    width: 44px;
+    margin-left: 36px;
+}
+#bottom-part3 div{
+    float: left;
+    font-size: 12px;
+    height:40px;
+    width: 320px;
+    line-height: 40px;
+    background-color:#f8f8f8;
+    text-align: center;
+}
+#bottom-part3 ul{
+    float: left;
+    height:60px;
+    width: 320px;
+    background-color:#f8f8f8;
+}
+#bottom-part3 ul a img{
+    float: left;
+    width: 320px;
+}
+/*最下面固定的栏目*/
+#bottomBar-fixed{
+    position: fixed;
+    width: 325px;
+    height: 44px;
+    background: white;
+    bottom: 4px;
+    left: 50%;
+    margin-left: -165px;
+    /*top: 522px;*/
+    z-index: 9999;
+}
+#bottomBar-fixed li{
+    float: left;
+    width: 80px;
+    height: 44px;
+    background: white;
+}
+#bottomBar-fixed li a img{
+    float: left;
+    width: 57px;
+    height: 44px;
+    margin: 0 11px;
+}
+
+
+a：link{
+    text-decoration: none;
+}
+a：hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
