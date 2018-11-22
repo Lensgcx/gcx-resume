@@ -1,0 +1,19 @@
+{
+  "name": "gcx-resume",
+  "version": "1.0.0",
+  "description": "gcx-resume` is my first project many years ago",
+  "main": "Gcx-resume.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lensgcx/gcx-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lensgcx/gcx-resume/issues"
+  },
+  "homepage": "https://github.com/Lensgcx/gcx-resume#readme"
+}
