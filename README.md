@@ -7,7 +7,7 @@ English | [简体中文](./README.zh-CN.md)
 ## Introduction
 
 `gcx-resume` is my first project many years ago.
-After the completion of this project, I began to become a front-end programmer. Now I take this as a commemoration. I am proud of it!.
+After the completion of this project, I began to become a frontend programmer. Now I take this as a commemoration. I am proud of it!.
 
 **Note: This project uses Jquery1.8.3+ version and Bootstrap**
 
