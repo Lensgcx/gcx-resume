@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="480" src="http://otaflb4oo.bkt.clouddn.com/gcx-resume/background/gcx-resume.png">
+  <img width="480" src="https://pan.baidu.com/s/1wI6xecVzdrwEWCAtIBjA-w">
 </p>
 
 English | [简体中文](./README.zh-CN.md)
